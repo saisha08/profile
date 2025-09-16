@@ -1,0 +1,18 @@
+{% assign current = page.url | remove: site.baseurl %}
+<header class="header">
+  <div class="container navbar">
+    <a href="{{ '/' | relative_url }}" class="brand" aria-label="Home">
+      <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo of {{ site.title }}" width="44" height="44" style="border-radius:999px;object-fit:cover;border:2px solid #fff;box-shadow:0 2px 10px rgba(0,0,0,.08)">
+      <div>
+        <div class="name">{{ site.title }}</div>
+        <div class="tagline">Senior • Class of 2026 · Westwood High School, Austin, TX</div>
+      </div>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      {% for item in site.nav %}
+        {% assign is_active = current == item.url %}
+        <a href="{{ item.url | relative_url }}" class="{% if is_active %}active{% endif %}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

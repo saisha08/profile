@@ -1,0 +1,105 @@
+---
+layout: default
+title: Resume
+permalink: /resume/
+---
+
+<section class="section">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+    <h2 style="margin: 0;">Resume</h2>
+    <a class="btn" href="{{ '/assets/resume.pdf' | relative_url }}" download>Download Resume (PDF)</a>
+  </div>
+
+  <article class="card" style="overflow:hidden; margin-top: 0;">
+    <div class="content">
+      <h4 style="color: #3eb0d2;">Profile</h4>
+      <p>A results-driven student leader with a passion for business, proven communication and analytical skills, and a commitment to academic and personal growth. Ready to contribute to and thrive in a rigorous undergraduate business program.</p>
+
+      <h4 style="color: #3eb0d2;">Education</h4>
+      <ul>
+        <li><strong>Westwood High School, Austin, TX</strong> <span class="meta">Aug 2022 – May 2026</span><br>
+        Unweighted GPA: 4.00/4.00 · Weighted GPA: 5.92/5.00 (Top 2%) · SAT: 1560 (&gt;99th percentile)<br>
+        <em>Relevant Coursework:</em> Accounting, Calculus II, Business Management, Personal Finance
+        </li>
+      </ul>
+
+      <h4 style="color: #3eb0d2;">Awards &amp; Honors</h4>
+      <ul>
+        <li>2× DECA ICDC Finalist &amp; Top 10 Presenter — Financial Consulting (International), <span class="meta">2024, 2025</span></li>
+        <li>Team Distinction Award (Top 10/300) — NYAS Junior Academy Ethical AI Challenge (International), <span class="meta">2024</span></li>
+        <li>3rd Place — Indiana University Datathon &amp; ML Competition (National), <span class="meta">2025</span></li>
+        <li>National Ethics Bowl Qualifier; State Champion; Heeley Award Recipient (National), <span class="meta">2024</span></li>
+        <li>2× Texas Music Federation All-State Winner (State), <span class="meta">2022, 2023</span></li>
+        <li>George Eastman Young Scholars Award — University of Rochester (National), <span class="meta">2025</span></li>
+        <li>Global Seal of Biliteracy — Spanish (National), <span class="meta">2025</span></li>
+      </ul>
+
+      <h4 style="color: #3eb0d2;">Work &amp; Internship Experience</h4>
+      <ul>
+        <li><strong>Gymnastics Coach (Paid)</strong> — Gymnast, Austin Gymnastics Club <span class="meta">Mar 2023 – Present</span><br>
+          <em>Coaching (12 hrs/week):</em> Head coach for 100+ students (Pre-School, 101, Pre-Competitive, Camps); collaborated with staff and parents to run high-quality programs and develop curriculum.<br>
+          <em>Competitive Gymnastics (10 hrs/week):</em> Team captain for 14 girls; led team to wins at State and Regional competitions while managing team dynamics and morale.
+        </li>
+        <li><strong>Consultant</strong> — Leadership Initiatives International Internship Program (LI‑IIP) <span class="meta">Jan 2024 – Dec 2024</span><br>
+          Advised a small business in Nigeria: built advertising strategy and a comprehensive financial plan; designed and executed campaigns; led monthly client reviews to optimize strategy; secured $700 in funding for community initiatives.
+        </li>
+        <li><strong>Banking &amp; Technology Intern</strong> — Red River Think SMART <span class="meta">Jun 2023 – Aug 2023</span><br>
+          Networked with banking professionals; gained hands‑on experience with hardware, cabling, cloud, and IT ops; strengthened presentation and teamwork through client interactions and collaborative projects.
+        </li>
+      </ul>
+
+      <h4 style="color: #3eb0d2;">Leadership &amp; Volunteering</h4>
+      <ul>
+        <li><strong>Vice President, DECA</strong> <span class="meta">Aug 2022 – Present</span><br>
+          Help lead Texas’s #2 ranked chapter (634 members). Directed a 5K charity run with 500+ participants, 4 sponsors, and $10k+ raised; managed permits, road closures, and safety with the City of Austin.<br>
+          Former Training Director: launched 1‑on‑1 prep for 100+ students → 30% higher State qualification rates.<br>
+          Former Online Events Director: expanded online program by 70+ students with webinars and resources.
+        </li>
+        <li><strong>Elected Representative</strong> — District Committees &amp; Advisory Boards <span class="meta">Sep 2022 – Present</span><br>
+          One of 15 students representing 40,000+ students across the district. Principal’s Advisory: informed policy on curriculum integrity and safety; launched recognition initiatives. Business Advisory: led resume workshops and mock interviews.
+        </li>
+        <li><strong>Volunteer</strong> — Archival Project, Indie Meme: South Asian Film Festival <span class="meta">Dec 2023 – Present</span><br>
+          Led City‑funded archival initiative with Austin History Center: conducted 20+ interviews; transcribed 50+ hours; curated posters, trailers, and metadata for public access.
+        </li>
+        <li><strong>President &amp; Co‑Founder</strong> — Business Competition Prep Club <span class="meta">Aug 2023 – Present</span><br>
+          Scaled a business education program to 11 middle schools, focusing on under‑resourced areas; designed interactive workshops; built an online series enabling smaller clubs to run competitions.
+        </li>
+        <li><strong>President</strong> — National Technical Honor Society (NTHS) <span class="meta">Sep 2023 – Present</span><br>
+          Lead 100‑member chapter; delivered large‑scale service projects (teacher appreciation for 50+ educators; STEM nights; literacy drives donating 200+ books/400 bookmarks); organized career fairs and outreach. Former Treasurer: raised $500+.
+        </li>
+        <li><strong>President</strong> — Economics Club <span class="meta">Aug 2023 – Present</span><br>
+          Grew membership by 100% in a year; organized competitions, lessons, and peer tutoring; ran case studies on policies (e.g., GENIUS Act, Federal Reserve) with 80% reporting improved scores.
+        </li>
+        <li><strong>Team Lead</strong> — New York Academy of Science (NYAS) Ethical AI <span class="meta">Aug 2024 – Dec 2024</span><br>
+          Worked with international researchers under Prof. Christos Liambas; designed/piloted an AI‑driven solution for ethical challenges in education; gathered feedback with 3 school districts (US, India, Australia).
+        </li>
+        <li><strong>Co‑Founder</strong> — Generation STRIVE (HOSA) <span class="meta">Aug 2024 – Present</span><br>
+          Built 10‑hour curriculum on bone health and mobility for seniors; taught 60+ residents; achieved 78% improvement in awareness based on exit surveys.
+        </li>
+        <li><strong>BOLD@Olin — Washington University</strong> <span class="meta">Jun 2024 – Jul 2024</span><br>
+          Selected 1 of 40 nationwide for a competitive business program; completed coursework in economics, marketing, and game theory; led a winning marketing campaign for Rosati‑Kain HS.
+        </li>
+        <li><strong>Team Lead</strong> — Wharton Global High School Investment Competition <span class="meta">Sep 2023 – Dec 2024</span><br>
+          Drove data‑backed investment strategy; ranked Top 15% for portfolio returns.
+        </li>
+      </ul>
+
+      <h4 style="color: #3eb0d2;">Academic &amp; Research</h4>
+      <ul>
+        <li><strong>Indiana University Bloomington — Datathon &amp; ML</strong> <span class="meta">Jul 2025 – Aug 2025</span><br>
+          Built a multi‑label annotated dataset of social posts; measured inter‑annotator agreement (Krippendorff’s Alpha); fine‑tuned HuggingFace <em>twitter‑roberta‑base‑offensive</em> in PyTorch; explored intersections of NLP, computational social science, and AI ethics.
+        </li>
+        <li><strong>Roundpier</strong><br>
+          Authored and presented the literature review “Rheumatoid Arthritis: Analyzing the Hormonal, Genetic, and Physiological Differences in Males and Females in the Development and Treatment of RA” to a panel of medical professionals.
+        </li>
+      </ul>
+
+      <h4 style="color: #3eb0d2;">Additional Skills &amp; Information</h4>
+      <ul>
+        <li><strong>Languages:</strong> English (Fluent); Spanish (Conversational)</li>
+        <li><strong>Technical:</strong> QuickBooks Certification; Python; Certiport‑certified in Microsoft Platforms</li>
+        <li><strong>Hobbies:</strong> Ballroom Dancing; Violin (Orchestra); Calisthenics; Card‑Making</li>
+      </ul>
+    </div>
+  </article>
+</section>

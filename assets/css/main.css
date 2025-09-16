@@ -1,0 +1,83 @@
+:root{
+  --brand:#3eb0d2;
+  --brand-dark:#2ea3b5;
+  --text:#0e0f11;
+  --muted:#58606b;
+  --bg:#ffffff;
+  --bg-alt:#f7fbfd;
+  --border:#e6eef2;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+  line-height:1.65;
+  color:var(--text);
+  background:var(--bg);
+}
+
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{max-width:980px;margin:0 auto;padding:0 1rem}
+.header{
+  position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.92);
+  backdrop-filter:saturate(150%) blur(6px); border-bottom:1px solid var(--border);
+}
+.navbar{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.6rem 0}
+.brand{display:flex;align-items:center;gap:.75rem}
+.brand .name{font-weight:700;letter-spacing:.2px}
+.brand .tagline{color:var(--muted);font-size:.9rem}
+.nav{display:flex;flex-wrap:wrap;gap:.5rem}
+.nav a{
+  padding:.45rem .7rem;border-radius:999px;border:1px solid transparent;
+}
+.nav a.active,.nav a:hover{
+  background:var(--bg-alt);border-color:var(--border);
+}
+
+.hero{
+  display:flex;gap:1rem;align-items:center;padding:2rem 0 1.25rem;border-bottom:1px solid var(--border);
+}
+.hero img{
+  width:84px;height:84px;border-radius:999px;border:3px solid var(--bg);
+  box-shadow:0 2px 12px rgba(0,0,0,.08);
+  object-fit:cover;
+}
+.hero .intro h1{font-size:1.65rem;margin:.1rem 0 .25rem}
+.hero .intro p{margin:0;color:var(--muted)}
+
+.section{padding:1.25rem 0}
+.section h2{font-size:1.35rem;margin:0 0 .75rem;padding-top:.25rem;border-top:3px solid var(--brand)}
+.card-grid{
+  display:grid;gap:1rem;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+}
+.card{
+  border:1px solid var(--border);border-radius:14px;overflow:hidden;background:white;
+  transition:transform .08s ease, box-shadow .08s ease;
+}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.06)}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.card .content{padding:.75rem .9rem}
+.card .meta{color:var(--muted);font-size:.9rem;margin-top:.2rem}
+
+.footer{border-top:1px solid var(--border);padding:1rem 0;margin-top:2rem;color:var(--muted)}
+.btn{
+  display:inline-block;padding:.55rem .9rem;border-radius:10px;border:1px solid var(--border);background:var(--bg-alt);
+}
+.btn:hover{background:#eaf6fa}
+.responsive-embed{
+  position:relative;width:100%;padding-bottom:129%; /* US Letter portrait approx */
+  height:0;overflow:hidden;border:1px solid var(--border);border-radius:12px;background:#fff;
+}
+.responsive-embed iframe{
+  position:absolute;top:0;left:0;width:100%;height:100%;border:0;
+}
+figure{margin:0}
+figcaption{font-size:.9rem;color:var(--muted);padding:.4rem .2rem}
+hr{border:0;border-top:1px solid var(--border);margin:1.2rem 0}
+@media (max-width:640px){
+  .hero{flex-direction:column;align-items:flex-start}
+}

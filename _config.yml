@@ -1,0 +1,26 @@
+title: "Saisha Siram"
+description: "High school portfolio — Academics, Work, Arts, Leadership, Resume"
+baseurl: ""
+url: ""
+permalink: /:title/
+markdown: kramdown
+theme: null
+plugins: []
+sass:
+  style: compressed
+
+# Navigation (order defines header order)
+nav:
+  - title: "Academics/Research"
+    url: /academics-research/
+  - title: "Work"
+    url: /work/
+  - title: "Arts"
+    url: /arts/
+  - title: "Leadership"
+    url: /leadership/
+  - title: "Resume"
+    url: /resume/
+
+brand_color: "#3eb0d2"
+brand_color_dark: "#2ea3b5"

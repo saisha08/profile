@@ -1,8 +1,8 @@
 title: "Saisha Siram"
 description: "High school portfolio — Academics, Work, Arts, Leadership, Resume"
 baseurl: ""
-url: ""
-permalink: /:title/
+url: "https://saisha-siram.github.io"
+permalink: pretty
 markdown: kramdown
 theme: null
 plugins: []

@@ -11,14 +11,14 @@ sass:
 
 # Navigation (order defines header order)
 nav:
-  - title: "Leadership"
-    url: /leadership/
   - title: "Academics/Research"
     url: /academics-research/
   - title: "Work"
     url: /work/
   - title: "Arts"
     url: /arts/
+  - title: "Leadership"
+    url: /leadership/
   - title: "Resume"
     url: /resume/
 

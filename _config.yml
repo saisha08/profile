@@ -13,14 +13,14 @@ sass:
 nav:
   - title: "Academics/Research"
     url: /academics-research/
+  - title: "Leadership"
+    url: /leadership/
   - title: "Work"
     url: /work/
   - title: "Arts"
     url: /arts/
-  - title: "Leadership"
-    url: /leadership/
-  - title: "Resume"
-    url: /resume/
+  - title: "Sports"
+    url: /sports/
 
 brand_color: "#3eb0d2"
 brand_color_dark: "#2ea3b5"

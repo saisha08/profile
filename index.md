@@ -7,8 +7,7 @@ permalink: /
 <section class="hero">
   <div class="intro">
     <h1>Hello! I'm {{ site.title }}.</h1>
-    <p>I'm a high‑school senior with interests spanning <strong>computer science</strong>, <strong>research</strong>, <strong>arts</strong>, and <strong>leadership</strong>. This site highlights a concise selection of my work for college applications.</p>
-    <p><a class="btn" href="{{ '/resume/' | relative_url }}">View my resume</a></p>
+    <p>I'm a high‑school senior with interests spanning <strong>computer science</strong>, <strong>research</strong>, <strong>arts</strong>, and <strong>leadership</strong>. This site highlights a concise selection of my work for college applications. <a href="{{ '/resume/' | relative_url }}">View my resume</a></p>
   </div>
 </section>
 

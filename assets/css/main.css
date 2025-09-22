@@ -73,7 +73,7 @@ a:hover{text-decoration:underline}
 .hero .intro p{margin:0;color:var(--muted)}
 
 .section{padding:1.25rem 0}
-.section h2{font-size:1.35rem;margin:0 0 .75rem;padding-top:.25rem;border-top:3px solid var(--brand)}
+.section h2{font-size:1.35rem;margin:0 0 .75rem;padding-bottom:.25rem;border-bottom:3px solid var(--brand)}
 .card-grid{
   display:grid;gap:1rem;
   grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
@@ -86,6 +86,155 @@ a:hover{text-decoration:underline}
 .card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
 .card .content{padding:.75rem .9rem}
 .card .meta{color:var(--muted);font-size:.9rem;margin-top:.2rem}
+
+/* Leadership Stack Layout */
+.leadership-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.leadership-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  background: white;
+  transition: transform .08s ease, box-shadow .08s ease;
+}
+
+.leadership-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,.06);
+}
+
+.leadership-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.leadership-carousel {
+  width: 350px;
+  height: 240px;
+  flex-shrink: 0;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-alt);
+}
+
+.carousel-slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
+.carousel-slide img,
+.carousel-slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--text);
+  transition: background 0.2s ease;
+  z-index: 10;
+}
+
+.carousel-btn:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.carousel-btn.prev {
+  left: 8px;
+}
+
+.carousel-btn.next {
+  right: 8px;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 10;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.dot.active {
+  background: rgba(255, 255, 255, 1);
+}
+
+.leadership-content {
+  flex: 1;
+}
+
+.leadership-content h3 {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+
+.leadership-content .meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.leadership-content p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--text);
+}
 
 .footer{border-top:1px solid var(--border);padding:1rem 0;margin-top:2rem;color:var(--muted)}
 .footer .container{background:#f8f9fa;border-radius:8px;text-align:center;padding:1rem}
@@ -154,5 +303,50 @@ hr{border:0;border-top:1px solid var(--border);margin:1.2rem 0}
     font-size: 1rem;
     border-radius: 6px;
     margin: 0.1rem 0;
+  }
+  
+  /* Mobile leadership layout */
+  .leadership-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .leadership-image {
+    width: 100%;
+    height: 180px;
+  }
+  .leadership-carousel {
+    width: 100%;
+    height: 260px;
+  }
+}
+
+/* Tablet responsive adjustments */
+@media (max-width: 768px) {
+  .leadership-carousel {
+    width: 100%;
+    height: 220px;
+  }
+}
+
+/* Small mobile adjustments */
+@media (max-width: 480px) {
+  .leadership-carousel {
+    width: 100%;
+    height: 200px;
+  }
+  .carousel-btn {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+  .carousel-btn.prev {
+    left: 5px;
+  }
+  .carousel-btn.next {
+    right: 5px;
+  }
+  .dot {
+    width: 5px;
+    height: 5px;
   }
 }

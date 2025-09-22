@@ -61,6 +61,42 @@ permalink: /leadership/
       </div>
     </article>
 
+    <!-- STRIVE Banner with Flip Effect -->
+    <div class="banner-section">
+      <div class="flip-container">
+        <div class="flip-card">
+          <!-- Front side - Banner -->
+          <div class="flip-card-front">
+            <img src="{{ '/assets/img/Banners/SmallBanner.png' | relative_url }}" alt="Generation STRIVE Banner" class="banner-image">
+          </div>
+          <!-- Back side - Activity Card -->
+          <div class="flip-card-back">
+            <div class="flip-leadership-card">
+              <div class="leadership-carousel">
+                <div class="carousel-container">
+                  <div class="carousel-slides">
+                    <img src="{{ '/assets/img/Generation STRIVE/IMG_3720 (1).JPEG' | relative_url }}" alt="Generation STRIVE Leadership" class="carousel-slide active">
+                    <img src="{{ '/assets/img/Generation STRIVE/IMG_8633 (1).HEIC' | relative_url }}" alt="Generation STRIVE Leadership" class="carousel-slide">
+                  </div>
+                  <button class="carousel-btn prev" onclick="changeSlide(this, -1)">‹</button>
+                  <button class="carousel-btn next" onclick="changeSlide(this, 1)">›</button>
+                  <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(this, 1)"></span>
+                    <span class="dot" onclick="currentSlide(this, 2)"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="leadership-content">
+                <h3>Generation STRIVE</h3>
+                <div class="meta">Co-Founder · 2024-Present</div>
+                <p>Describe your leadership role in Generation STRIVE. Provide detailed information about your responsibilities, initiatives you led, and the impact you made. Include specific achievements, programs you organized, or outcomes that demonstrate your leadership effectiveness.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Leadership Example 3 -->
     <article class="leadership-card">
       <img src="{{ '/assets/img/sample-leadership-3.jpg' | relative_url }}" alt="Leadership example 3" class="leadership-image">

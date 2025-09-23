@@ -15,27 +15,27 @@ permalink: /
   <h2>Highlights</h2>
   <div class="card-grid">
     <article class="card">
-      <img src="{{ '/assets/img/sample-academics.jpg' | relative_url }}" alt="Poster presentation">
+      <img src="{{ '/assets/img/sample-academics.jpg' | relative_url }}" alt="NYAS Ethical AI Challenge">
       <div class="content">
-        <h3>Poster Presentation Finalist</h3>
-        <div class="meta">Regional Science Fair · 2025</div>
-        <p>Summarize your project in one or two sentences. Add award or placement.</p>
+        <h3>NYAS Ethical AI Challenge - Top Team Award</h3>
+        <div class="meta">New York Academy of Science · 2024</div>
+        <p>Collaborated with international researchers to investigate ethical implications of AI in education, designing innovative solutions with real-world school district partnerships.</p>
       </div>
     </article>
     <article class="card">
-      <img src="{{ '/assets/img/sample-work.jpg' | relative_url }}" alt="Internship photo">
+      <img src="{{ '/assets/img/sample-work.jpg' | relative_url }}" alt="Indiana University Research">
       <div class="content">
-        <h3>Summer Research Intern</h3>
-        <div class="meta">Lab / Company · 2024</div>
-        <p>One‑sentence impact: what you built, measured, or contributed.</p>
+        <h3>Indiana University Datathon - 3rd Place</h3>
+        <div class="meta">Machine Learning Competition · 2025</div>
+        <p>Researched offensive language detection, built datasets, fine-tuned HuggingFace transformer models, and explored ethical questions around NLP and content moderation.</p>
       </div>
     </article>
     <article class="card">
-      <img src="{{ '/assets/img/sample-arts.jpg' | relative_url }}" alt="Artwork photo">
+      <img src="{{ '/assets/img/sample-arts.jpg' | relative_url }}" alt="Medical Research">
       <div class="content">
-        <h3>National Scholastic Art Honorable Mention</h3>
-        <div class="meta">Mixed Media · 2024</div>
-        <p>Brief description of the piece or series.</p>
+        <h3>RoundPier Medical Competition</h3>
+        <div class="meta">Medical Research · 2023</div>
+        <p>Authored comprehensive literary review on rheumatoid arthritis, analyzing hormonal, genetic, and physiological differences between males and females in RA development and treatment.</p>
       </div>
     </article>
   </div>

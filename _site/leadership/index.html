@@ -77,15 +77,15 @@
             <div class="flip-leadership-card">
               <div class="leadership-carousel">
                 <div class="carousel-container">
-                  <div class="carousel-slides">
-                    <img src="/profile/assets/img/Generation%20STRIVE/IMG_3720%20(1).JPEG" alt="Generation STRIVE Leadership" class="carousel-slide active" />
-                    <img src="/profile/assets/img/Generation%20STRIVE/IMG_8633%20(1).HEIC" alt="Generation STRIVE Leadership" class="carousel-slide" />
+                  <div class="carousel" id="generation-strive-carousel">
+                    <img src="/profile/assets/img/Generation%20STRIVE/IMG_3720%20(1).JPEG" alt="Generation STRIVE Leadership" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
+                    <img src="/profile/assets/img/Generation%20STRIVE/IMG_8633%20(1).HEIC" alt="Generation STRIVE Leadership" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
                   </div>
-                  <button class="carousel-btn prev" onclick="changeSlide(this, -1)">‹</button>
-                  <button class="carousel-btn next" onclick="changeSlide(this, 1)">›</button>
+                  <button class="carousel-btn prev" onclick="changeSlide('generation-strive-carousel', -1)">‹</button>
+                  <button class="carousel-btn next" onclick="changeSlide('generation-strive-carousel', 1)">›</button>
                   <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(this, 1)"></span>
-                    <span class="dot" onclick="currentSlide(this, 2)"></span>
+                    <span class="dot active" onclick="currentSlide('generation-strive-carousel', 0)"></span>
+                    <span class="dot" onclick="currentSlide('generation-strive-carousel', 1)"></span>
                   </div>
                 </div>
               </div>
@@ -113,21 +113,17 @@
             <div class="flip-leadership-card">
               <div class="leadership-carousel">
                 <div class="carousel-container">
-                  <div class="carousel-slides">
-                    <div class="carousel-slide active">
-                      <img src="/profile/assets/img/LevelUp%20Leaders/IMG_1085.HEIC" alt="LevelUp Leaders" />
-                    </div>
-                    <div class="carousel-slide">
-                      <video src="/profile/assets/img/LevelUp%20Leaders/IMG_1086.MOV" controls="" muted="">
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
+                  <div class="carousel" id="levelup-leaders-carousel">
+                    <img src="/profile/assets/img/LevelUp%20Leaders/IMG_1085.HEIC" alt="LevelUp Leaders" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
+                    <video src="/profile/assets/img/LevelUp%20Leaders/IMG_1086.MOV" controls="" muted="" style="width: 100%; height: 200px; object-fit: cover; display: none;">
+                      Your browser does not support the video tag.
+                    </video>
                   </div>
-                  <button class="carousel-btn prev" onclick="changeSlide(this, -1)">‹</button>
-                  <button class="carousel-btn next" onclick="changeSlide(this, 1)">›</button>
+                  <button class="carousel-btn prev" onclick="changeSlide('levelup-leaders-carousel', -1)">‹</button>
+                  <button class="carousel-btn next" onclick="changeSlide('levelup-leaders-carousel', 1)">›</button>
                   <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(this, 1)"></span>
-                    <span class="dot" onclick="currentSlide(this, 2)"></span>
+                    <span class="dot active" onclick="currentSlide('levelup-leaders-carousel', 0)"></span>
+                    <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 1)"></span>
                   </div>
                 </div>
               </div>
@@ -153,6 +149,9 @@
     </article>
   </div>
 </section>
+
+<script src="/profile/assets/js/unified-carousel.js"></script>
+
 
   </main>
   <footer class="footer">

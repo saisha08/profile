@@ -23,15 +23,15 @@ permalink: /leadership/
             <div class="flip-leadership-card">
               <div class="leadership-carousel">
                 <div class="carousel-container">
-                  <div class="carousel-slides">
-                    <img src="{{ '/assets/img/Generation STRIVE/IMG_3720 (1).JPEG' | relative_url }}" alt="Generation STRIVE Leadership" class="carousel-slide active">
-                    <img src="{{ '/assets/img/Generation STRIVE/IMG_8633 (1).HEIC' | relative_url }}" alt="Generation STRIVE Leadership" class="carousel-slide">
+                  <div class="carousel" id="generation-strive-carousel">
+                    <img src="{{ '/assets/img/Generation STRIVE/IMG_3720 (1).JPEG' | relative_url }}" alt="Generation STRIVE Leadership" style="width: 100%; height: 200px; object-fit: cover; display: block;">
+                    <img src="{{ '/assets/img/Generation STRIVE/IMG_8633 (1).HEIC' | relative_url }}" alt="Generation STRIVE Leadership" style="width: 100%; height: 200px; object-fit: cover; display: none;">
                   </div>
-                  <button class="carousel-btn prev" onclick="changeSlide(this, -1)">‹</button>
-                  <button class="carousel-btn next" onclick="changeSlide(this, 1)">›</button>
+                  <button class="carousel-btn prev" onclick="changeSlide('generation-strive-carousel', -1)">‹</button>
+                  <button class="carousel-btn next" onclick="changeSlide('generation-strive-carousel', 1)">›</button>
                   <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(this, 1)"></span>
-                    <span class="dot" onclick="currentSlide(this, 2)"></span>
+                    <span class="dot active" onclick="currentSlide('generation-strive-carousel', 0)"></span>
+                    <span class="dot" onclick="currentSlide('generation-strive-carousel', 1)"></span>
                   </div>
                 </div>
               </div>
@@ -59,21 +59,17 @@ permalink: /leadership/
             <div class="flip-leadership-card">
               <div class="leadership-carousel">
                 <div class="carousel-container">
-                  <div class="carousel-slides">
-                    <div class="carousel-slide active">
-                      <img src="{{ '/assets/img/LevelUp Leaders/IMG_1085.HEIC' | relative_url }}" alt="LevelUp Leaders">
-                    </div>
-                    <div class="carousel-slide">
-                      <video src="{{ '/assets/img/LevelUp Leaders/IMG_1086.MOV' | relative_url }}" controls muted>
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
+                  <div class="carousel" id="levelup-leaders-carousel">
+                    <img src="{{ '/assets/img/LevelUp Leaders/IMG_1085.HEIC' | relative_url }}" alt="LevelUp Leaders" style="width: 100%; height: 200px; object-fit: cover; display: block;">
+                    <video src="{{ '/assets/img/LevelUp Leaders/IMG_1086.MOV' | relative_url }}" controls muted style="width: 100%; height: 200px; object-fit: cover; display: none;">
+                      Your browser does not support the video tag.
+                    </video>
                   </div>
-                  <button class="carousel-btn prev" onclick="changeSlide(this, -1)">‹</button>
-                  <button class="carousel-btn next" onclick="changeSlide(this, 1)">›</button>
+                  <button class="carousel-btn prev" onclick="changeSlide('levelup-leaders-carousel', -1)">‹</button>
+                  <button class="carousel-btn next" onclick="changeSlide('levelup-leaders-carousel', 1)">›</button>
                   <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(this, 1)"></span>
-                    <span class="dot" onclick="currentSlide(this, 2)"></span>
+                    <span class="dot active" onclick="currentSlide('levelup-leaders-carousel', 0)"></span>
+                    <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 1)"></span>
                   </div>
                 </div>
               </div>
@@ -99,3 +95,5 @@ permalink: /leadership/
     </article>
   </div>
 </section>
+
+<script src="{{ '/assets/js/unified-carousel.js' | relative_url }}"></script>

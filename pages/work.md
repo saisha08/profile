@@ -13,9 +13,9 @@ permalink: /work/
     <article class="work-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
       <div class="carousel-container" style="flex: 0 0 300px; position: relative;">
         <div class="carousel" id="gymnastics-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
-          <img src="{{ '/assets/img/Gymnastics Coaching/IMG_7222.jpg' | relative_url }}" alt="Gymnastics coaching" style="width: 100%; height: 200px; object-fit: cover; display: block;">
-          <img src="{{ '/assets/img/Gymnastics Coaching/IMG_8513 (1).jpg' | relative_url }}" alt="Team training" style="width: 100%; height: 200px; object-fit: cover; display: none;">
-          <img src="{{ '/assets/img/Gymnastics Coaching/IMG_9993.jpg' | relative_url }}" alt="Competition" style="width: 100%; height: 200px; object-fit: cover; display: none;">
+          <img src="{{ '/assets/img/gymnastics-coaching/img_7222.jpg' | relative_url }}" alt="Gymnastics coaching" style="width: 100%; height: 200px; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/gymnastics-coaching/img_8513.jpg' | relative_url }}" alt="Team training" style="width: 100%; height: 200px; object-fit: cover; display: none;">
+          <img src="{{ '/assets/img/gymnastics-coaching/img_9993.jpg' | relative_url }}" alt="Competition" style="width: 100%; height: 200px; object-fit: cover; display: none;">
         </div>
         <button class="carousel-btn prev" onclick="changeSlide('gymnastics-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
         <button class="carousel-btn next" onclick="changeSlide('gymnastics-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>

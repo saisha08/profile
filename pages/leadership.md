@@ -96,4 +96,4 @@ permalink: /leadership/
   </div>
 </section>
 
-<script src="{{ '/assets/js/unified-carousel.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>

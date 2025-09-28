@@ -55,4 +55,43 @@ permalink: /
 
 <section class="section">
   <h2>Featured Articles</h2>
+  
+  <!-- Featured Articles Cards -->
+  <div class="featured-articles-container" style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+    
+    <!-- Ethics Bowl Article Card -->
+    <div class="featured-article-card" style="flex: 1; min-width: 300px; background: #f8f9fa; border-radius: 8px; padding: 1.5rem; border-left: 4px solid #3eb0d2;">
+      <img src="{{ '/assets/img/New Article/Screenshot 2025-09-28 134807.png' | relative_url }}" alt="Ethics Bowl Article" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+      <h3 style="color: #3eb0d2; margin: 0 0 0.5rem 0;">Ethics Bowl Champions</h3>
+      <p style="margin: 0 0 1rem 0; color: #666;">Westwood High School emerged victorious at the 13th Annual UT Tyler Ethics Bowl, competing against teams from across Texas. The team advanced to nationals and won the Social Media Award.</p>
+      <div style="margin-top: 1rem;">
+        <a href="https://www.uttyler.edu/research/centers/ethics/ethics-bowl/" target="_blank" style="color: #3eb0d2; text-decoration: none; font-size: 0.9rem;">Read Full Article →</a>
+      </div>
+    </div>
+
+    <!-- WashU Olin Article Card -->
+    <div class="featured-article-card" style="flex: 1; min-width: 300px; background: #f8f9fa; border-radius: 8px; padding: 1.5rem; border-left: 4px solid #3eb0d2;">
+      <img src="{{ '/assets/img/New Article/Washu.png' | relative_url }}" alt="WashU Olin Article" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+      <h3 style="color: #3eb0d2; margin: 0 0 0.5rem 0;">High School Students' Life at Olin Summer Programs</h3>
+      <p style="margin: 0 0 1rem 0; color: #666;">High school students experience life at Washington University's Olin Business School through competitive summer programs, gaining hands-on experience in business, economics, and leadership.</p>
+      <div style="margin-top: 1rem;">
+        <a href="https://olin.washu.edu/about/news-and-media/news/2024/07/high-school-students-life-olin-summer-programs.php" target="_blank" style="color: #3eb0d2; text-decoration: none; font-size: 0.9rem;">Read Full Article →</a>
+      </div>
+    </div>
+
+    <!-- Community Impact Article Card -->
+    <div class="featured-article-card" style="flex: 1; min-width: 300px; background: #f8f9fa; border-radius: 8px; padding: 1.5rem; border-left: 4px solid #3eb0d2;">
+      <img src="{{ '/assets/img/sample-leadership.jpg' | relative_url }}" alt="Community Impact Article" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+      <h3 style="color: #3eb0d2; margin: 0 0 0.5rem 0;">Youth Leadership Impact</h3>
+      <p style="margin: 0 0 1rem 0; color: #666;">High school students across Texas are making significant contributions to their communities through innovative leadership programs and service initiatives.</p>
+      <div class="article-stats" style="display: flex; justify-content: space-between; font-size: 0.9rem; color: #888;">
+        <span>Youth Focus</span>
+        <span>Community Service</span>
+      </div>
+      <div style="margin-top: 1rem;">
+        <a href="#" style="color: #3eb0d2; text-decoration: none; font-size: 0.9rem;">Read Full Article →</a>
+      </div>
+    </div>
+    
+  </div>
 </section>

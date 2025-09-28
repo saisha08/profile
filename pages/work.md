@@ -73,7 +73,6 @@ let currentSlideIndex = {};
 
 function changeSlide(carouselId, direction) {
   console.log('changeSlide called with:', carouselId, direction);
-  alert('Button clicked! Carousel: ' + carouselId + ', Direction: ' + direction);
   
   const carousel = document.getElementById(carouselId);
   if (!carousel) {
@@ -159,7 +158,6 @@ function currentSlide(carouselId, slideNumber) {
 // Initialize carousels when page loads
 document.addEventListener('DOMContentLoaded', function() {
   console.log('DOM loaded, initializing carousels');
-  alert('JavaScript is loading!');
   
   // Initialize all carousels to show first image
   const carousels = document.querySelectorAll('.carousel');

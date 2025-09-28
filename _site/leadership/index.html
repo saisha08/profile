@@ -61,89 +61,172 @@
   <h2>Leadership</h2>
   <p>Leadership has not just shaped my character—it has defined the way I serve others. I lead by amplifying voices through advocacy, expanding opportunity through education, and honoring those who give to our community through gratitude. These values come alive in my initiatives below, each reflecting the kind of leader I strive to be.</p>
 
-  <div class="leadership-stack">
-
-    <!-- STRIVE Banner with Flip Effect -->
-    <div class="banner-section">
-      <div class="flip-container">
-        <div class="flip-card">
-          <!-- Front side - Banner -->
-          <div class="flip-card-front">
-            <img src="/profile/assets/img/Banners/SmallBanner.png" alt="Generation STRIVE Banner" class="banner-image" />
-          </div>
-          <!-- Back side - Activity Card -->
-          <div class="flip-card-back">
-            <div class="flip-leadership-card">
-              <div class="leadership-carousel">
-                <div class="carousel-container">
-                  <div class="carousel" id="generation-strive-carousel">
-                    <img src="/profile/assets/img/Generation%20STRIVE/IMG_3720%20(1).JPEG" alt="Generation STRIVE Leadership" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
-                    <img src="/profile/assets/img/Generation%20STRIVE/IMG_8633%20(1).HEIC" alt="Generation STRIVE Leadership" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
-                  </div>
-                  <button class="carousel-btn prev" onclick="changeSlide('generation-strive-carousel', -1)">‹</button>
-                  <button class="carousel-btn next" onclick="changeSlide('generation-strive-carousel', 1)">›</button>
-                  <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide('generation-strive-carousel', 0)"></span>
-                    <span class="dot" onclick="currentSlide('generation-strive-carousel', 1)"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="leadership-content">
-                <h3>Generation STRIVE</h3>
-                <div class="meta">Co-Founder · 2024-Present</div>
-                <p>Describe your leadership role in Generation STRIVE. Provide detailed information about your responsibilities, initiatives you led, and the impact you made. Include specific achievements, programs you organized, or outcomes that demonstrate your leadership effectiveness.</p>
-              </div>
-            </div>
-          </div>
+  <div class="leadership-cards-stack">
+    <!-- Level Up Leaders Card -->
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+      <div class="carousel-container" style="flex: 0 0 300px; position: relative;">
+        <div class="carousel" id="levelup-leaders-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="/profile/assets/img/sample-leadership-3.jpg" alt="Level Up Leaders" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
+          <img src="/profile/assets/img/sample-leadership.jpg" alt="Workshop sessions" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+          <img src="/profile/assets/img/sample-leadership-2.jpg" alt="Student competitions" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('levelup-leaders-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('levelup-leaders-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
+        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+          <span class="dot active" onclick="currentSlide('levelup-leaders-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
-    </div>
-
-    <!-- LevelUp Leaders Banner with Flip Effect -->
-    <div class="banner-section">
-      <div class="flip-container">
-        <div class="flip-card">
-          <!-- Front side - Banner -->
-          <div class="flip-card-front">
-            <img src="/profile/assets/img/Banners/Level%20Up%20Leaders%20(2).png" alt="LevelUp Leaders Banner" class="banner-image" />
-          </div>
-          <!-- Back side - Activity Card -->
-          <div class="flip-card-back">
-            <div class="flip-leadership-card">
-              <div class="leadership-carousel">
-                <div class="carousel-container">
-                  <div class="carousel" id="levelup-leaders-carousel">
-                    <img src="/profile/assets/img/LevelUp%20Leaders/IMG_1085.HEIC" alt="LevelUp Leaders" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
-                    <video src="/profile/assets/img/LevelUp%20Leaders/IMG_1086.MOV" controls="" muted="" style="width: 100%; height: 200px; object-fit: cover; display: none;">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                  <button class="carousel-btn prev" onclick="changeSlide('levelup-leaders-carousel', -1)">‹</button>
-                  <button class="carousel-btn next" onclick="changeSlide('levelup-leaders-carousel', 1)">›</button>
-                  <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide('levelup-leaders-carousel', 0)"></span>
-                    <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 1)"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="leadership-content">
-                <h3>LevelUp Leaders</h3>
-                <div class="meta">Leadership Role · 2024-2025</div>
-                <p>Describe your leadership role in LevelUp Leaders. Provide detailed information about your responsibilities, initiatives you led, and the impact you made. Include specific achievements, programs you organized, or outcomes that demonstrate your leadership effectiveness.</p>
-              </div>
-            </div>
-          </div>
+      <div class="content" style="flex: 1;">
+        <h3 style="margin-bottom: 0;">Level Up Leaders</h3>
+        <div class="meta" style="margin-top: 0;">President &amp; Co-Founder · Aug 2023 – Present</div>
+        <p>President &amp; Co-Founder scaled a business education program to 11 middle schools, focusing on under-resourced areas. Designed interactive workshops and built an online series enabling smaller clubs to run competitions.</p>
+        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+          <span>11 Schools</span>
+          <span>Co-Founder</span>
+          <span>Online Series</span>
         </div>
       </div>
-    </div>
+    </article>
 
-    <!-- Leadership Example 3 -->
-    <article class="leadership-card">
-      <img src="/profile/assets/img/sample-leadership-3.jpg" alt="Leadership example 3" class="leadership-image" />
-      <div class="leadership-content">
-        <h3>Leadership Example 3</h3>
-        <div class="meta">Founder · 2024</div>
-        <p>Community impact or fundraising raised. Explain the initiative you founded, the problem it addressed, and the community impact. Include specific metrics, funds raised, people helped, or other quantifiable results.</p>
+    <!-- DECA Vice President Card -->
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+      <div class="carousel-container" style="flex: 0 0 300px; position: relative;">
+        <div class="carousel" id="deca-leadership-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="/profile/assets/img/sample-leadership.jpg" alt="DECA leadership" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
+          <img src="/profile/assets/img/sample-leadership-2.jpg" alt="DECA events" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+          <img src="/profile/assets/img/sample-leadership-3.jpg" alt="DECA team" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('deca-leadership-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('deca-leadership-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
+        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+          <span class="dot active" onclick="currentSlide('deca-leadership-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('deca-leadership-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('deca-leadership-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+        </div>
+      </div>
+      <div class="content" style="flex: 1;">
+        <h3 style="margin-bottom: 0;">DECA Vice President</h3>
+        <div class="meta" style="margin-top: 0;">Vice President · Aug 2022 – Present</div>
+        <p>Help lead Texas's #2 ranked chapter with 634 members. Directed a 5K charity run with 500+ participants, 4 sponsors, and $10k+ raised. Former Training Director launched 1-on-1 prep for 100+ students resulting in 30% higher State qualification rates.</p>
+        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+          <span>634 Members</span>
+          <span>$10k+ Raised</span>
+          <span>30% Improvement</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- District Representative Card -->
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+      <div class="carousel-container" style="flex: 0 0 300px; position: relative;">
+        <div class="carousel" id="district-rep-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="/profile/assets/img/sample-leadership-2.jpg" alt="District representation" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
+          <img src="/profile/assets/img/sample-leadership-3.jpg" alt="Committee work" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+          <img src="/profile/assets/img/sample-leadership.jpg" alt="Student advocacy" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('district-rep-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('district-rep-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
+        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+          <span class="dot active" onclick="currentSlide('district-rep-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('district-rep-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('district-rep-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+        </div>
+      </div>
+      <div class="content" style="flex: 1;">
+        <h3 style="margin-bottom: 0;">Elected District Representative</h3>
+        <div class="meta" style="margin-top: 0;">District Representative · Sep 2022 – Present</div>
+        <p>One of 15 students representing 40,000+ students across the district. Principal's Advisory informed policy on curriculum integrity and safety while launching recognition initiatives. Business Advisory led resume workshops and mock interviews.</p>
+        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+          <span>40k+ Students</span>
+          <span>15 Representatives</span>
+          <span>Policy Impact</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Generation STRIVE Card -->
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+      <div class="carousel-container" style="flex: 0 0 300px; position: relative;">
+        <div class="carousel" id="generation-strive-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="/profile/assets/img/Generation%20STRIVE/IMG_3720%20(1).JPEG" alt="Generation STRIVE leadership" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
+          <img src="/profile/assets/img/Generation%20STRIVE/IMG_8633%20(1).HEIC" alt="Generation STRIVE events" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+          <img src="/profile/assets/img/sample-leadership.jpg" alt="Generation STRIVE impact" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('generation-strive-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('generation-strive-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
+        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+          <span class="dot active" onclick="currentSlide('generation-strive-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('generation-strive-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('generation-strive-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+        </div>
+      </div>
+      <div class="content" style="flex: 1;">
+        <h3 style="margin-bottom: 0;">Generation STRIVE</h3>
+        <div class="meta" style="margin-top: 0;">Co-Founder · 2024-Present</div>
+        <p>Co-founded Generation STRIVE to empower underrepresented students in STEM and business. Led initiatives focused on mentorship, skill development, and creating pathways to higher education. Organized workshops, networking events, and community outreach programs.</p>
+        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+          <span>Co-Founder</span>
+          <span>STEM Focus</span>
+          <span>Community Impact</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Economics Club President Card -->
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+      <div class="carousel-container" style="flex: 0 0 300px; position: relative;">
+        <div class="carousel" id="economics-club-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="/profile/assets/img/sample-leadership-2.jpg" alt="Economics club" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
+          <img src="/profile/assets/img/sample-leadership-3.jpg" alt="Case studies" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+          <img src="/profile/assets/img/sample-leadership.jpg" alt="Peer tutoring" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('economics-club-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('economics-club-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
+        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+          <span class="dot active" onclick="currentSlide('economics-club-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('economics-club-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('economics-club-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+        </div>
+      </div>
+      <div class="content" style="flex: 1;">
+        <h3 style="margin-bottom: 0;">Economics Club President</h3>
+        <div class="meta" style="margin-top: 0;">President · Aug 2023 – Present</div>
+        <p>Grew membership by 100% in a year through organizing competitions, lessons, and peer tutoring. Ran case studies on policies including the GENIUS Act and Federal Reserve with 80% of participants reporting improved scores.</p>
+        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+          <span>100% Growth</span>
+          <span>80% Improvement</span>
+          <span>Case Studies</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- NTHS President Card -->
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+      <div class="carousel-container" style="flex: 0 0 300px; position: relative;">
+        <div class="carousel" id="nths-president-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="/profile/assets/img/sample-leadership.jpg" alt="NTHS leadership" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
+          <img src="/profile/assets/img/sample-leadership-2.jpg" alt="Service projects" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+          <img src="/profile/assets/img/sample-leadership-3.jpg" alt="Community outreach" style="width: 100%; height: 200px; object-fit: cover; display: none;" />
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('nths-president-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('nths-president-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
+        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+          <span class="dot active" onclick="currentSlide('nths-president-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('nths-president-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('nths-president-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+        </div>
+      </div>
+      <div class="content" style="flex: 1;">
+        <h3 style="margin-bottom: 0;">NTHS President</h3>
+        <div class="meta" style="margin-top: 0;">President · Sep 2023 – Present</div>
+        <p>Lead 100-member chapter delivering large-scale service projects including teacher appreciation for 50+ educators, STEM nights, and literacy drives donating 200+ books and 400 bookmarks. Organized career fairs and outreach programs.</p>
+        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+          <span>100 Members</span>
+          <span>200+ Books</span>
+          <span>50+ Educators</span>
+        </div>
       </div>
     </article>
   </div>

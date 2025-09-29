@@ -10,7 +10,7 @@ permalink: /leadership/
 
   <div class="leadership-cards-stack">
     <!-- Level Up Leaders Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
         <div class="carousel" id="levelup-leaders-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/LevelUp Leaders/kids.png' | relative_url }}" alt="Level Up Leaders kids" style="width: 100%; height: 250px; object-fit: cover; display: block;">
@@ -38,7 +38,7 @@ permalink: /leadership/
     </article>
 
     <!-- DECA Vice President Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
         <div class="carousel" id="deca-leadership-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/DECA/DECAteam.jpg' | relative_url }}" alt="DECA team" style="width: 100%; height: 250px; object-fit: cover; display: block;">
@@ -71,7 +71,7 @@ permalink: /leadership/
     </article>
 
     <!-- District Representative Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
         <div class="carousel" id="district-rep-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/Advisory Board/IMG_1191.jpg' | relative_url }}" alt="District representation" style="width: 100%; height: 250px; object-fit: cover; object-position: center 20%; display: block;">
@@ -95,7 +95,7 @@ permalink: /leadership/
     </article>
 
     <!-- Generation STRIVE Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
         <div class="carousel" id="generation-strive-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/Generation STRIVE/IMG_3720 (1).JPEG' | relative_url }}" alt="Generation STRIVE leadership" style="width: 100%; height: 250px; object-fit: cover; display: block;">
@@ -121,7 +121,7 @@ permalink: /leadership/
     </article>
 
     <!-- Economics Club President Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
         <div class="carousel" id="economics-club-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/Economics Club/IMG_0796.jpg' | relative_url }}" alt="Economics club" style="width: 100%; height: 250px; object-fit: cover; display: block;">
@@ -147,7 +147,7 @@ permalink: /leadership/
     </article>
 
     <!-- NTHS President Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
         <div class="carousel" id="nths-president-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/NTHS/20230217_111025.jpg' | relative_url }}" alt="NTHS leadership" style="width: 100%; height: 250px; object-fit: cover; display: block;">

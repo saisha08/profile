@@ -13,7 +13,8 @@ permalink: /leadership/
     <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
         <div class="carousel" id="levelup-leaders-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
-          <img src="{{ '/assets/img/LevelUp Leaders/DSC04918.JPG' | relative_url }}" alt="Level Up Leaders" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/LevelUp Leaders/kids.png' | relative_url }}" alt="Level Up Leaders kids" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/LevelUp Leaders/DSC04918.JPG' | relative_url }}" alt="Level Up Leaders" style="width: 100%; height: 250px; object-fit: cover; display: none;">
           <img src="{{ '/assets/img/LevelUp Leaders/Screenshot 2025-09-22 230615.png' | relative_url }}" alt="Workshop sessions" style="width: 100%; height: 250px; object-fit: cover; display: none;">
         </div>
         <button class="carousel-btn prev" onclick="changeSlide('levelup-leaders-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
@@ -21,11 +22,12 @@ permalink: /leadership/
         <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
           <span class="dot active" onclick="currentSlide('levelup-leaders-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
           <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">Level Up Leaders</h3>
-        <div class="meta" style="margin-top: 0;">President & Co-Founder · Aug 2023 – Present</div>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President & Co-Founder</strong> · Aug 2023 – Present</div>
         <p>President & Co-Founder scaled a business education program to 11 middle schools, focusing on under-resourced areas. Designed interactive workshops and built an online series enabling smaller clubs to run competitions.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>11 Schools</span>
@@ -39,7 +41,8 @@ permalink: /leadership/
     <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3eb0d2; align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
         <div class="carousel" id="deca-leadership-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
-          <img src="{{ '/assets/img/DECA/IMG_8996.jpg' | relative_url }}" alt="DECA leadership" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/DECA/DECAteam.jpg' | relative_url }}" alt="DECA team" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/DECA/IMG_8996.jpg' | relative_url }}" alt="DECA leadership" style="width: 100%; height: 250px; object-fit: cover; display: none;">
           <img src="{{ '/assets/img/DECA/491452952_18036025415634666_6858432377562634691_n.jpg' | relative_url }}" alt="DECA events" style="width: 100%; height: 250px; object-fit: cover; display: none;">
           <img src="{{ '/assets/img/DECA/491452993_18036025592634666_1658808102534740071_n.jpg' | relative_url }}" alt="DECA team" style="width: 100%; height: 250px; object-fit: cover; display: none;">
           <img src="{{ '/assets/img/DECA/552cc6be-4ca7-4a13-a554-14ba2cc7be13 (2).jpg' | relative_url }}" alt="DECA activities" style="width: 100%; height: 250px; object-fit: cover; display: none;">
@@ -57,7 +60,7 @@ permalink: /leadership/
       </div>
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">DECA</h3>
-        <div class="meta" style="margin-top: 0;">Vice President · Aug 2022 – Present</div>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Vice President</strong> · Aug 2022 – Present</div>
         <p>Help lead Texas's #2 ranked chapter with 634 members. Directed a 5K charity run with 500+ participants, 4 sponsors, and $10k+ raised. Former Training Director launched 1-on-1 prep for 100+ students resulting in 30% higher State qualification rates.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>634 Members</span>
@@ -80,8 +83,8 @@ permalink: /leadership/
         </div>
       </div>
       <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">Elected District Representative</h3>
-        <div class="meta" style="margin-top: 0;">District Representative · Sep 2022 – Present</div>
+        <h3 style="margin-bottom: 0;">RRISD District Advisory Committee</h3>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">District Representative</strong> · Sep 2022 – Present</div>
         <p>One of 15 students representing 40,000+ students across the district. Principal's Advisory informed policy on curriculum integrity and safety while launching recognition initiatives. Business Advisory led resume workshops and mock interviews.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>40k+ Students</span>
@@ -107,7 +110,7 @@ permalink: /leadership/
       </div>
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">Generation STRIVE</h3>
-        <div class="meta" style="margin-top: 0;">Co-Founder · 2024-Present</div>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Co-Founder</strong> · 2024-Present</div>
         <p>Co-founded Generation STRIVE to empower underrepresented students in STEM and business. Led initiatives focused on mentorship, skill development, and creating pathways to higher education. Organized workshops, networking events, and community outreach programs.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>Co-Founder</span>
@@ -133,7 +136,7 @@ permalink: /leadership/
       </div>
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">Economics Club</h3>
-        <div class="meta" style="margin-top: 0;">President · Aug 2023 – Present</div>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President</strong> · Aug 2023 – Present</div>
         <p>Grew membership by 100% in a year through organizing competitions, lessons, and peer tutoring. Ran case studies on policies including the GENIUS Act and Federal Reserve with 80% of participants reporting improved scores.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>100% Growth</span>
@@ -161,7 +164,7 @@ permalink: /leadership/
       </div>
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">NTHS</h3>
-        <div class="meta" style="margin-top: 0;">President · Sep 2023 – Present</div>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President</strong> · Sep 2023 – Present</div>
         <p>Lead 100-member chapter delivering large-scale service projects including teacher appreciation for 50+ educators, STEM nights, and literacy drives donating 200+ books and 400 bookmarks. Organized career fairs and outreach programs.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>100 Members</span>

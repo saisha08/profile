@@ -27,7 +27,7 @@ permalink: /arts/
       </div>
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">Violin</h3>
-        <div class="meta" style="margin-top: 0;">Orchestra · 2018 – Present</div>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Orchestra</strong> · 2018 – Present</div>
         <p>Active member of the school orchestra, performing in concerts and competitions. Achieved Texas Music Federation All-State Winner recognition in 2022 and 2023. Participates in ensemble performances and solo recitals, contributing to the musical community through classical and contemporary repertoire.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>2× All-State</span>

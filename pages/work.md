@@ -35,7 +35,7 @@ permalink: /work/
       </div>
     </article>
 
-    <!-- Archivalist Card -->
+    <!-- Archivist Card -->
     <article class="work-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 300px; position: relative;">
         <div class="carousel" id="archivalist-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
@@ -50,8 +50,8 @@ permalink: /work/
         </div>
       </div>
       <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">Archivalist, Indie Meme: South Asian Film Festival</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Archivalist</strong> · Dec 2023 – Present</div>
+        <h3 style="margin-bottom: 0;">Archivist, Indie Meme: South Asian Film Festival</h3>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Archivist</strong> · Dec 2023 – Present</div>
         <p>Led City-funded archival initiative with Austin History Center. Conducted 20+ interviews, transcribed 50+ hours of content, and curated posters, trailers, and metadata for public access to preserve South Asian film heritage. This project ensures the cultural legacy of South Asian cinema is preserved for future generations.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>20+ Interviews</span>

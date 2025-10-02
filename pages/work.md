@@ -6,7 +6,6 @@ permalink: /work/
 
 <section class="section">
   <h2>Work</h2>
-  <p>Internships, part-time roles, volunteering, or freelance projects emphasizing impact and skills learned.</p>
 
   <div class="work-cards-stack">
     <!-- Gymnastics Coach Card -->
@@ -28,10 +27,9 @@ permalink: /work/
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">Gymnastics Coach, Austin Gymnastics Club</h3>
         <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Gymnastics Coach</strong> · Mar 2023 – Present</div>
-        <p>Head coach for 100+ students across Pre-School, 101, Pre-Competitive, and Camps programs. Team captain for 14 girls, leading them to wins at State and Regional competitions while managing team dynamics and morale. Collaborated with staff and parents to run high-quality programs and develop curriculum.</p>
+        <p>Head coach for 100+ students across Pre-School, 101, Pre-Competitive, Camps, and Birthday Parties. Collaborated with staff and parents to run high-quality programs and develop curriculum.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>100+ Students</span>
-          <span>22 hrs/week</span>
           <span>State Champions</span>
         </div>
       </div>

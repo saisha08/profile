@@ -6,7 +6,6 @@ permalink: /sports/
 
 <section class="section">
   <h2>Sports</h2>
-  <p>Athletic achievements, team participation, and sports-related activities. Highlight your dedication, teamwork, and physical accomplishments.</p>
 
   <div class="leadership-cards-stack">
     <!-- Gymnastics Card -->

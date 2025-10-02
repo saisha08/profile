@@ -17,10 +17,10 @@ nav:
     url: /leadership/
   - title: "Work"
     url: /work/
-  - title: "Arts"
-    url: /arts/
   - title: "Sports"
     url: /sports/
+  - title: "Arts"
+    url: /arts/
 
 brand_color: "#3eb0d2"
 brand_color_dark: "#2ea3b5"

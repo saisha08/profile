@@ -51,7 +51,7 @@ permalink: /sports/
         <div class="content" style="flex: 1;">
           <h3 style="margin-bottom: 0;">Gymnastics</h3>
           <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Competitive Gymnast & Coach</strong> · 2018 – Present</div>
-          <p>Competitive gymnast with 8+ years of experience, specializing in artistic gymnastics. Currently coaching young athletes and helping develop fundamental skills. Participated in regional competitions and state championships.</p>
+          <p>Competitive gymnast with 8+ years of experience, specializing in artistic gymnastics (vault, beam, floor, bars). Currently coaching young athletes and helping develop fundamental skills. Won gold in regional competitions and state championships.</p>
           <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
             <span>8+ Years</span>
             <span>Regional Competitions</span>
@@ -117,10 +117,10 @@ permalink: /sports/
         </div>
         <div class="content" style="flex: 1;">
           <h3 style="margin-bottom: 0;">Ballroom Dancing</h3>
-          <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Competitive Dancer</strong> · 2020 – Present</div>
-          <p>Competitive ballroom dancer specializing in Latin and Standard styles. Participated in regional competitions and showcases. Focus on technique, performance, and partnership dynamics in competitive dance.</p>
+          <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Competitive Dancer</strong> · 2024 – Present</div>
+          <p>Competitive ballroom dancer specializing in American Smooth styles (Waltz, Tango, Foxtrot, Viennese Waltz). Won gold in regional competitions and showcases. Focus on technique, performance, and partnership dynamics in competitive dance.</p>
           <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
-            <span>Latin & Standard</span>
+            <span>American Smooth</span>
             <span>Regional Competitions</span>
             <span>Performance Focus</span>
           </div>

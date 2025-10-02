@@ -9,34 +9,6 @@ permalink: /leadership/
   <p>Leadership has not just shaped my character—it has defined the way I serve others. I lead by amplifying voices through advocacy, expanding opportunity through education, and honoring those who give to our community through gratitude. These values come alive in my initiatives below, each reflecting the kind of leader I strive to be.</p>
 
   <div class="leadership-cards-stack">
-    <!-- Level Up Leaders Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
-        <div class="carousel" id="levelup-leaders-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
-          <img src="{{ '/assets/img/LevelUp Leaders/kids.png' | relative_url }}" alt="Level Up Leaders kids" style="width: 100%; height: 250px; object-fit: cover; display: block;">
-          <img src="{{ '/assets/img/LevelUp Leaders/DSC04918.JPG' | relative_url }}" alt="Level Up Leaders" style="width: 100%; height: 250px; object-fit: cover; display: none;">
-          <img src="{{ '/assets/img/LevelUp Leaders/Screenshot 2025-09-22 230615.png' | relative_url }}" alt="Workshop sessions" style="width: 100%; height: 250px; object-fit: cover; display: none;">
-        </div>
-        <button class="carousel-btn prev" onclick="changeSlide('levelup-leaders-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
-        <button class="carousel-btn next" onclick="changeSlide('levelup-leaders-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
-        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
-          <span class="dot active" onclick="currentSlide('levelup-leaders-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
-          <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
-          <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
-        </div>
-      </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">Level Up Leaders</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President & Co-Founder</strong> · Aug 2023 – Present</div>
-        <p>President & Co-Founder scaled a business education program to 11 middle schools, focusing on under-resourced areas. Designed interactive workshops and built an online series enabling smaller clubs to run competitions.</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
-          <span>11 Schools</span>
-          <span>Co-Founder</span>
-          <span>Online Series</span>
-        </div>
-      </div>
-    </article>
-
     <!-- DECA Vice President Card -->
     <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
@@ -70,6 +42,34 @@ permalink: /leadership/
       </div>
     </article>
 
+    <!-- Level Up Leaders Card -->
+    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
+      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
+        <div class="carousel" id="levelup-leaders-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="{{ '/assets/img/LevelUp Leaders/kids.png' | relative_url }}" alt="Level Up Leaders kids" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/LevelUp Leaders/DSC04918.JPG' | relative_url }}" alt="Level Up Leaders" style="width: 100%; height: 250px; object-fit: cover; display: none;">
+          <img src="{{ '/assets/img/LevelUp Leaders/Screenshot 2025-09-22 230615.png' | relative_url }}" alt="Workshop sessions" style="width: 100%; height: 250px; object-fit: cover; display: none;">
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('levelup-leaders-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('levelup-leaders-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
+        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+          <span class="dot active" onclick="currentSlide('levelup-leaders-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+        </div>
+      </div>
+      <div class="content" style="flex: 1;">
+        <h3 style="margin-bottom: 0;">Level Up Leaders</h3>
+        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President & Co-Founder</strong> · Aug 2023 – Present</div>
+        <p>Co-founded Level Up Leaders to empower underrepresented students in STEM and business. Led initiatives focused on mentorship, skill development, and creating pathways to higher education. Organized workshops, networking events, and community outreach programs.</p>
+        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+          <span>11 Schools</span>
+          <span>Co-Founder</span>
+          <span>Online Series</span>
+        </div>
+      </div>
+    </article>
+
     <!-- District Representative Card -->
     <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
       <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
@@ -85,7 +85,7 @@ permalink: /leadership/
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">RRISD District Advisory Committee</h3>
         <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">District Representative</strong> · Sep 2022 – Present</div>
-        <p>One of 15 students representing 40,000+ students across the district. Principal's Advisory informed policy on curriculum integrity and safety while launching recognition initiatives. Business Advisory led resume workshops and mock interviews.</p>
+        <p>Selected as 1 of 5 students from my school to serve on a school district wide advisory committee to represent and advocate for the interests of +40,000 students. Collaborated with Texas Representative, School Superintendent, and advocacy leaders to change my community.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>40k+ Students</span>
           <span>15 Representatives</span>
@@ -111,7 +111,7 @@ permalink: /leadership/
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">Generation STRIVE</h3>
         <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Co-Founder</strong> · 2024-Present</div>
-        <p>Co-founded Generation STRIVE to empower underrepresented students in STEM and business. Led initiatives focused on mentorship, skill development, and creating pathways to higher education. Organized workshops, networking events, and community outreach programs.</p>
+        <p>Co-founded Generation STRIVE to raise awareness on bone health and mobility among the elderly community to empower them with practical knowledge and enhance their well-being. Conducted lessons for over 60 senior citizens at retirement homes, resulting in 78% improvement in awareness and knowledge on bone health as measured by exit surveys.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>Co-Founder</span>
           <span>STEM Focus</span>
@@ -165,10 +165,10 @@ permalink: /leadership/
       <div class="content" style="flex: 1;">
         <h3 style="margin-bottom: 0;">NTHS</h3>
         <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President</strong> · Sep 2023 – Present</div>
-        <p>Lead 100-member chapter delivering large-scale service projects including teacher appreciation for 50+ educators, STEM nights, and literacy drives donating 200+ books and 400 bookmarks. Organized career fairs and outreach programs.</p>
+        <p>Lead 100-member chapter delivering large-scale service projects including teacher appreciation for 50+ educators, STEM nights, and literacy drives donating 1000+ books and 400 bookmarks. Organized career fairs and outreach programs.</p>
         <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
           <span>100 Members</span>
-          <span>200+ Books</span>
+          <span>1000+ Books</span>
           <span>50+ Educators</span>
         </div>
       </div>

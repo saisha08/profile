@@ -7,7 +7,7 @@ permalink: /
 <section class="hero">
   <div class="intro">
     <h1>Hello! I'm {{ site.title }}.</h1>
-    <p>I'm a high‑school senior with interests spanning <strong>computer science</strong>, <strong>research</strong>, <strong>arts</strong>, and <strong>leadership</strong>. This site highlights a concise selection of my work. <a href="{{ '/resume/' | relative_url }}">View my resume</a></p>
+    <p>I am a results-driven student leader with a passion for business, proven communication and analytical skills, and a commitment to academic and personal growth. <a href="{{ '/resume/' | relative_url }}">View my resume</a></p>
   </div>
 </section>
 
@@ -37,7 +37,7 @@ permalink: /
         <div class="activity-icon" style="font-size: 1.2rem;">🔬</div>
         <h3 style="color: #000; margin: 0;">AI Research</h3>
       </div>
-      <p style="margin: 0 0 1rem 0; color: #666; flex-grow: 1;">I will be working with Professor Nathalie Japkowicz at American University in developing an app that uses NLP to detect hate speech in social media posts. The goal will be to expand the application of the app to various demographics including Anti-Asian, Anti-Islamic, and Anti-Black.</p>
+      <p style="margin: 0 0 1rem 0; color: #666; flex-grow: 1;">Working with Professor Nathalie Japkowicz at American University in developing an app that uses NLP to detect hate speech (Antisemitism) in social media posts. The goal will be to expand the application of the app to various demographics including Anti-Asian, Anti-Islamic, and Anti-Black.</p>
       
       <div class="activity-stats" style="display: flex; justify-content: space-between; font-size: 0.9rem; color: #3eb0d2; font-weight: bold; margin-top: auto;">
         <span>NLP</span>

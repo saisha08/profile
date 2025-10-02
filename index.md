@@ -23,7 +23,7 @@ permalink: /
         <div class="activity-icon" style="font-size: 1.2rem;">🏆</div>
         <h3 style="color: #000; margin: 0;">DECA 5k Fundraiser</h3>
       </div>
-      <p style="margin: 0 0 1rem 0; color: #666; flex-grow: 1;">To raise money for our school teachers, Westwood DECA organized a 5k Dash open to all community members. We had over 500 students, teachers, family, and other community members attend this special event raising almost $10k!</p>
+      <p style="margin: 0 0 1rem 0; color: #666; flex-grow: 1;">I spearheaded a 5K charity run with over 500 participants, securing sponsorship from 4 corporations for the event and successfully raising over $10,000 in funds for teachers. Our team orchestrated all event logistics, including permits, road closures, and safety measures, in partnership with the City of Austin.</p>
       
       <div class="activity-stats" style="display: flex; justify-content: space-between; font-size: 0.9rem; color: #3eb0d2; font-weight: bold; margin-top: auto;">
         <span>500+ Participants</span>

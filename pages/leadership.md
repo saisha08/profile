@@ -10,8 +10,8 @@ permalink: /leadership/
 
   <div class="leadership-cards-stack">
     <!-- DECA Vice President Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
+    <article class="leadership-card">
+      <div class="carousel-container">
         <div class="carousel" id="deca-leadership-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/DECA/DECAteam.jpg' | relative_url }}" alt="DECA team" style="width: 100%; height: 250px; object-fit: cover; display: block;">
           <img src="{{ '/assets/img/DECA/IMG_8996.jpg' | relative_url }}" alt="DECA leadership" style="width: 100%; height: 250px; object-fit: cover; display: none;">
@@ -30,11 +30,11 @@ permalink: /leadership/
           <span class="dot" onclick="currentSlide('deca-leadership-carousel', 4)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">DECA</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Vice President</strong> · Aug 2022 – Present</div>
+      <div class="content">
+        <h3>DECA</h3>
+        <div class="meta"><strong>Vice President</strong> · Aug 2022 – Present</div>
         <p>Lead world's #2 ranked chapter with 634 members. Directed a 5K charity run with 500+ participants, 4 sponsors, and raised $10k+. As former Training Director, launched 1-on-1 prep for 100+ students resulting in 30% higher State qualification rates.</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+        <div class="activity-stats">
           <span>634 Members</span>
           <span>$10k+ Raised</span>
           <span>30% Improvement</span>
@@ -43,8 +43,8 @@ permalink: /leadership/
     </article>
 
     <!-- Level Up Leaders Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
+    <article class="leadership-card">
+      <div class="carousel-container">
         <div class="carousel" id="levelup-leaders-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/LevelUp Leaders/kids.png' | relative_url }}" alt="Level Up Leaders kids" style="width: 100%; height: 250px; object-fit: cover; display: block;">
           <img src="{{ '/assets/img/LevelUp Leaders/DSC04918.JPG' | relative_url }}" alt="Level Up Leaders" style="width: 100%; height: 250px; object-fit: cover; display: none;">
@@ -58,11 +58,11 @@ permalink: /leadership/
           <span class="dot" onclick="currentSlide('levelup-leaders-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">Level Up Leaders</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President & Co-Founder</strong> · Aug 2023 – Present</div>
+      <div class="content">
+        <h3>Level Up Leaders</h3>
+        <div class="meta"><strong>President & Co-Founder</strong> · Aug 2023 – Present</div>
         <p>Co-founded Level Up Leaders to empower underrepresented students in STEM and business. Led initiatives focused on mentorship, skill development, and creating pathways to higher education. Organized workshops, networking events, and community outreach programs.</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+        <div class="activity-stats">
           <span>11 Schools</span>
           <span>Co-Founder</span>
           <span>Online Series</span>
@@ -71,8 +71,8 @@ permalink: /leadership/
     </article>
 
     <!-- District Representative Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
+    <article class="leadership-card">
+      <div class="carousel-container">
         <div class="carousel" id="district-rep-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/Advisory Board/IMG_1191.jpg' | relative_url }}" alt="District representation" style="width: 100%; height: 250px; object-fit: cover; object-position: center 20%; display: block;">
         </div>
@@ -82,11 +82,11 @@ permalink: /leadership/
           <span class="dot active" onclick="currentSlide('district-rep-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">RRISD District Advisory Committee</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">District Representative</strong> · Sep 2022 – Present</div>
+      <div class="content">
+        <h3>RRISD District Advisory Committee</h3>
+        <div class="meta"><strong>District Representative</strong> · Sep 2022 – Present</div>
         <p>Selected as 1 of 5 students from my school to serve on a school district wide advisory committee to represent and advocate for the interests of +40,000 students. Collaborated with Texas Representative, School Superintendent, and advocacy leaders to change my community.</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+        <div class="activity-stats">
           <span>40k+ Students</span>
           <span>15 Representatives</span>
           <span>Policy Impact</span>
@@ -95,8 +95,8 @@ permalink: /leadership/
     </article>
 
     <!-- Generation STRIVE Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
+    <article class="leadership-card">
+      <div class="carousel-container">
         <div class="carousel" id="generation-strive-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/Generation STRIVE/IMG_3720 (1).JPEG' | relative_url }}" alt="Generation STRIVE leadership" style="width: 100%; height: 250px; object-fit: cover; display: block;">
           <img src="{{ '/assets/img/Generation STRIVE/IMG_8633 (1).HEIC' | relative_url }}" alt="Generation STRIVE events" style="width: 100%; height: 250px; object-fit: cover; display: none;">
@@ -108,11 +108,11 @@ permalink: /leadership/
           <span class="dot" onclick="currentSlide('generation-strive-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">Generation STRIVE</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Co-Founder</strong> · 2024-Present</div>
+      <div class="content">
+        <h3>Generation STRIVE</h3>
+        <div class="meta"><strong>Co-Founder</strong> · 2024-Present</div>
         <p>Co-founded Generation STRIVE to raise awareness on bone health and mobility among the elderly community to empower them with practical knowledge and enhance their well-being. Conducted lessons for over 60 senior citizens at retirement homes, resulting in 78% improvement in awareness and knowledge on bone health as measured by exit surveys.</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+        <div class="activity-stats">
           <span>Co-Founder</span>
           <span>STEM Focus</span>
           <span>Community Impact</span>
@@ -121,8 +121,8 @@ permalink: /leadership/
     </article>
 
     <!-- Economics Club President Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
+    <article class="leadership-card">
+      <div class="carousel-container">
         <div class="carousel" id="economics-club-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/Economics Club/IMG_0796.jpg' | relative_url }}" alt="Economics club" style="width: 100%; height: 250px; object-fit: cover; display: block;">
           <img src="{{ '/assets/img/Economics Club/IMG_0797.jpg' | relative_url }}" alt="Case studies" style="width: 100%; height: 250px; object-fit: cover; display: none;">
@@ -134,11 +134,11 @@ permalink: /leadership/
           <span class="dot" onclick="currentSlide('economics-club-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">Economics Club</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President</strong> · Aug 2023 – Present</div>
+      <div class="content">
+        <h3>Economics Club</h3>
+        <div class="meta"><strong>President</strong> · Aug 2023 – Present</div>
         <p>Grew membership by 100% in a year through organizing competitions, lessons, and peer tutoring. Ran case studies on policies including the GENIUS Act and Federal Reserve with 80% of participants reporting improved scores.</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+        <div class="activity-stats">
           <span>100% Growth</span>
           <span>80% Improvement</span>
           <span>Case Studies</span>
@@ -147,8 +147,8 @@ permalink: /leadership/
     </article>
 
     <!-- NTHS President Card -->
-    <article class="leadership-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
+    <article class="leadership-card">
+      <div class="carousel-container">
         <div class="carousel" id="nths-president-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/NTHS/20230217_111025.jpg' | relative_url }}" alt="NTHS leadership" style="width: 100%; height: 250px; object-fit: cover; display: block;">
           <img src="{{ '/assets/img/NTHS/Screenshot 2025-09-28 154952.png' | relative_url }}" alt="Service projects" style="width: 100%; height: 250px; object-fit: cover; display: none;">
@@ -162,11 +162,11 @@ permalink: /leadership/
           <span class="dot" onclick="currentSlide('nths-president-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">NTHS</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">President</strong> · Sep 2023 – Present</div>
+      <div class="content">
+        <h3>NTHS</h3>
+        <div class="meta"><strong>President</strong> · Sep 2023 – Present</div>
         <p>Lead 100-member chapter delivering large-scale service projects including teacher appreciation for 50+ educators, STEM nights, and literacy drives donating 1000+ books and 400 bookmarks. Organized career fairs and outreach programs.</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+        <div class="activity-stats">
           <span>100 Members</span>
           <span>1000+ Books</span>
           <span>50+ Educators</span>

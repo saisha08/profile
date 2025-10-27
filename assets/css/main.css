@@ -194,17 +194,6 @@ a:hover{text-decoration:underline;color:var(--brand-dark)}
   cursor: pointer;
 }
 
-.dropdown-arrow {
-  font-size: 0.7em;
-  margin-left: 0.25rem;
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-.dropdown.active .dropdown-arrow {
-  transform: rotate(180deg);
-}
-
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -220,13 +209,14 @@ a:hover{text-decoration:underline;color:var(--brand-dark)}
   visibility: hidden;
   transform: translateY(-10px);
   transition: all 0.3s ease;
+  pointer-events: none;
 }
 
-.dropdown.active .dropdown-menu,
 .dropdown:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  pointer-events: auto;
 }
 
 .dropdown-menu a {

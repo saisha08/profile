@@ -30,7 +30,7 @@
           {% if item.title == "Sports" %}
             <div class="dropdown">
               <a href="{{ item.url | relative_url }}" class="dropdown-toggle {% if is_active %}active{% endif %}">
-                {{ item.title }} <span class="dropdown-arrow">▼</span>
+                {{ item.title }}
               </a>
               <div class="dropdown-menu">
                 <a href="{{ '/sports/#gymnastics' | relative_url }}">Gymnastics</a>

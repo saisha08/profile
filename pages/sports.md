@@ -70,7 +70,7 @@ permalink: /sports/
             <h4 style="margin-bottom: 0.5rem; color: #333; font-size: 1rem;">Most Recent Competition - San Antonio Classic</h4>
             <div class="skills-divider"></div>
             
-            <div class="video-grid" style="margin-top: 1rem;">
+            <div class="video-grid" style="margin-top: 2.5rem;">
               <div style="position: relative; width: 100%; overflow: hidden;">
                 <div style="display: flex; gap: 1rem; transition: transform 0.3s ease;" id="ballroom-carousel">
                   <div style="flex: 0 0 calc(33.333% - 0.67rem);">

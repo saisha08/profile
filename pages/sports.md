@@ -9,7 +9,7 @@ permalink: /sports/
 
   <div class="leadership-cards-stack">
     <!-- Gymnastics Card -->
-    <article class="leadership-card">
+    <article class="leadership-card" id="gymnastics">
       <div class="card-content">
         <div class="image-section">
           <div class="image-container">
@@ -60,7 +60,7 @@ permalink: /sports/
     </article>
 
     <!-- Ballroom Card -->
-    <article class="leadership-card">
+    <article class="leadership-card" id="ballroom">
       <div class="card-content">
         <div class="image-section">
           <div class="image-container">

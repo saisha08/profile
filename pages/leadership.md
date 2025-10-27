@@ -34,7 +34,7 @@ permalink: /leadership/
         <h3>DECA</h3>
         <div class="meta"><strong>Vice President</strong> · Aug 2022 – Present</div>
         <p>Lead world's #2 ranked chapter with 634 members. Directed a 5K charity run with 500+ participants, 4 sponsors, and raised $10k+. As former Training Director, launched 1-on-1 prep for 100+ students resulting in 30% higher State qualification rates.</p>
-        <p><strong>Honors/Awards:</strong> <u>2x Finalist and Top 10 Presenter at the International Career Development Conference (ICDC) for Financial Consulting</u>; Member of the Year</p>
+        <p><strong>Honors/Awards:</strong> 2x Finalist and Top 10 Presenter at the International Career Development Conference (ICDC) for Financial Consulting; Member of the Year</p>
         <div class="activity-stats">
           <span>634 Members</span>
           <span>$10k+ Raised</span>

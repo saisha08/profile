@@ -68,9 +68,9 @@ permalink: /sports/
           </div>
           <div class="recent-competition" style="margin-top: 1rem;">
             <h4 style="margin-bottom: 0.5rem; color: #333; font-size: 1rem;">Most Recent Competition - San Antonio Classic</h4>
-            <div style="width: calc(100% + 2rem + 100% + 2rem); height: 2px; background-color: #3eb0d2; margin-bottom: 0.5rem;"></div>
+            <div class="skills-divider"></div>
             
-            <div style="margin-top: 1rem; width: calc(100% + 2rem + 100% + 2rem); margin-left: 0;">
+            <div class="video-grid" style="margin-top: 1rem;">
               <div style="position: relative; width: 100%; overflow: hidden;">
                 <div style="display: flex; gap: 1rem; transition: transform 0.3s ease;" id="ballroom-carousel">
                   <div style="flex: 0 0 calc(33.333% - 0.67rem);">

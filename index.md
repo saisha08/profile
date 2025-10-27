@@ -7,7 +7,7 @@ permalink: /
 <section class="hero">
   <div class="intro">
     <h1>Hello! I'm {{ site.title }}.</h1>
-    <p>I am an inquisitive and results-driven student with a passion for exploring how data and behavioral insights can make finance and education more equitable — blending research, technology, and real-world experimentation. <a href="{{ '/resume/' | relative_url }}">View my resume</a></p>
+    <p>I am an inquisitive and results-driven student with a passion for exploring how data and behavioral insights can make finance and education more equitable — blending research, technology, and real-world experimentation.</p>
   </div>
   <div class="hero-decoration">
     <div class="floating-shape shape-1"></div>
@@ -43,9 +43,10 @@ permalink: /
         <li>4 local sponsors</li>
         <li>Now a chapter annual tradition</li>
       </ul>
+      <p style="margin: 0.5rem 0 0.3rem 0;"><strong>Honors/Awards:</strong> 2x Finalist and Top 10 Presenter at the International Career Development Conference (ICDC) for Financial Consulting; Member of the Year</p>
       <p style="margin: 0 0 0 0; font-style: italic; color: #1a7a8a; font-size: 0.9rem; font-weight: 600;">Learned how to translate a small idea into real-world execution</p>
       <p style="margin: 0.3rem 0 0 0; font-size: 0.9rem;">
-        <a href="{{ '/leadership/' | relative_url }}#deca" style="color: var(--brand); text-decoration: none; font-weight: 600;">More about my impact in DECA →</a>
+        <a href="{{ '/leadership/' | relative_url }}#deca" style="color: var(--brand); text-decoration: none !important; font-weight: 600; border: none;">More about my impact in DECA →</a>
       </p>
     </div>
 
@@ -53,17 +54,17 @@ permalink: /
     <div class="activity-card enhanced-card">
       <div class="card-header">
         <div class="activity-icon">🔬</div>
-        <h3 style="margin-bottom: 0;">Indiana University Datathon and Machine Learning Competition</h3>
+        <h3 style="margin-bottom: 0;">Indiana University Machine Learning Datathon</h3>
       </div>
       
-      <h4 style="color: #1a7a8a; font-size: 0.9rem; font-weight: 600; margin: -0.5rem 0 0.5rem 0;">Team Lead · Research under <strong>Dr. Daniel Miehling</strong>, <strong>Prof. Gunther Jikeli Jr.</strong>, and <strong>Prof. Damir Cavar</strong></h4>
+      <h4 style="color: #1a7a8a; font-size: 0.9rem; font-weight: 600; margin: -0.5rem 0 0.5rem 0;">Team Lead</h4>
       
       <!-- Image Carousel -->
       <div class="image-carousel">
         <img src="{{ '/assets/img/Datathon Homepage.png' | relative_url }}" alt="Indiana University Datathon" class="carousel-image">
       </div>
       
-      <p style="margin: 0 0 0.3rem 0;">Placed in the Top 3 Teams at Indiana University's Datathon, where our team researched offensive language detection on social media. We built and annotated a large dataset, then fine-tuned a HuggingFace transformer model in PyTorch to enhance hate-speech detection accuracy while studying the ethical implications of NLP in moderation systems.</p>
+      <p style="margin: 0 0 0.3rem 0;">Placed in the Top 3 Teams at Indiana University's Datathon, where our team researched offensive language detection on social media. Under the guidance of <strong>Dr. Daniel Miehling</strong>, <strong>Prof. Gunther Jikeli Jr.</strong>, and <strong>Prof. Damir Cavar</strong>, we built and annotated a large dataset of social media posts. We then fine-tuned a HuggingFace transformer model in PyTorch to enhance hate-speech detection accuracy while studying the ethical implications of NLP in moderation systems.</p>
       
       <ul style="margin: 0.2rem 0; padding-left: 1.2rem; color: var(--muted);">
         <li>Placed in Top 3 overall among collegiate teams</li>

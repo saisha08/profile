@@ -27,19 +27,7 @@
       <div class="nav-menu">
         {% for item in site.nav %}
           {% assign is_active = current == item.url %}
-          {% if item.title == "Sports" %}
-            <div class="dropdown">
-              <a href="{{ item.url | relative_url }}" class="dropdown-toggle {% if is_active %}active{% endif %}">
-                {{ item.title }}
-              </a>
-              <div class="dropdown-menu">
-                <a href="{{ '/sports/#gymnastics' | relative_url }}">Gymnastics</a>
-                <a href="{{ '/sports/#ballroom' | relative_url }}">Ballroom Dancing</a>
-              </div>
-            </div>
-          {% else %}
-            <a href="{{ item.url | relative_url }}" class="{% if is_active %}active{% endif %}">{{ item.title }}</a>
-          {% endif %}
+          <a href="{{ item.url | relative_url }}" class="{% if is_active %}active{% endif %}">{{ item.title }}</a>
         {% endfor %}
       </div>
     </nav>

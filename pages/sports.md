@@ -5,7 +5,7 @@ permalink: /sports/
 ---
 
 <section class="section">
-  <h2>Sports</h2>
+  <h2>Sports (Gymnastics & Ballroom Dancing)</h2>
 
   <div class="leadership-cards-stack">
     <!-- Gymnastics Card -->

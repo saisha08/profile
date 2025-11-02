@@ -35,6 +35,7 @@ permalink: /leadership/
         <div class="meta"><strong>Vice President</strong> · Aug 2022 – Present</div>
         <p>Lead world's #2 ranked chapter with 634 members. Directed a 5K charity run with 500+ participants, 4 sponsors, and raised $10k+. As former Training Director, launched 1-on-1 prep for 100+ students resulting in 30% higher State qualification rates.</p>
         <p><strong>Honors/Awards:</strong> 2x Finalist and Top 10 Presenter at the International Career Development Conference (ICDC) for Financial Consulting; Member of the Year</p>
+        <p><strong>Website:</strong> <a href="https://sites.google.com/view/warriordeca/home?authuser=0" target="_blank">https://sites.google.com/view/warriordeca/home?authuser=0</a></p>
         <div class="activity-stats">
           <span>634 Members</span>
           <span>$10k+ Raised</span>
@@ -114,6 +115,7 @@ permalink: /leadership/
         <h3>Generation STRIVE</h3>
         <div class="meta"><strong>Co-Founder</strong> · 2024-Present</div>
         <p>Co-founded Generation STRIVE to raise awareness on bone health and mobility among the elderly community to empower them with practical knowledge and enhance their well-being. Conducted lessons for over 60 senior citizens at retirement homes, resulting in 78% improvement in awareness and knowledge on bone health as measured by exit surveys.</p>
+        <p><strong>Website:</strong> <a href="http://generationstrive.com/" target="_blank">http://generationstrive.com/</a></p>
         <div class="activity-stats">
           <span>Co-Founder</span>
           <span>STEM Focus</span>
@@ -168,6 +170,7 @@ permalink: /leadership/
         <h3>National Technical Honor Society (NTHS)</h3>
         <div class="meta"><strong>President</strong> · Sep 2023 – Present</div>
         <p>Lead 100-member chapter delivering large-scale service projects including teacher appreciation for 50+ educators, STEM nights, and literacy drives donating 1000+ books and 400 bookmarks. Organized career fairs and outreach programs.</p>
+        <p><strong>Website:</strong> <a href="https://sites.google.com/roundrockisd.org/westwoodnths/about" target="_blank">https://sites.google.com/roundrockisd.org/westwoodnths/about</a></p>
         <div class="activity-stats">
           <span>100 Members</span>
           <span>1000+ Books</span>

@@ -86,7 +86,7 @@ permalink: /leadership/
       <div class="content">
         <h3>RRISD District Advisory Committee</h3>
         <div class="meta"><strong>District Representative</strong> · Sep 2022 – Present</div>
-        <p>Selected as 1 of 5 students from my school to serve on a school district wide advisory committee to represent and advocate for the interests of 40,000+ students. Collaborated with <strong>Texas Representative John Bucy III</strong>, <strong>Superintendent Dr. Hafedh Azaiez</strong>, and advocacy leaders to change my community.</p>
+        <p>Selected as 1 of 8 students from my school to serve on a school district wide advisory committee to represent and advocate for the interests of 40,000+ students. Collaborated with <strong>Texas Representative John Bucy III</strong>, <strong>Superintendent Dr. Hafedh Azaiez</strong>, and advocacy leaders to change my community.</p>
         <p><strong>Honors/Awards:</strong> Invited Guest Speaker for the Student Leadership Summit (spoke to +100 students); Showcase our campaign at the Texas Association of School Boards (TASB) Governance Conference</p>
         <div class="activity-stats">
           <span>40,000+ Students</span>

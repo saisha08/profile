@@ -38,10 +38,10 @@ permalink: /sports/
               
               <div class="video-item">
                 <video controls preload="metadata">
-                  <source src="{{ '/assets/img/Gymnastics - Sports/Front tuck.mp4' | relative_url }}" type="video/mp4">
-                  Your browser does not support the video tag. <a href="{{ '/assets/img/Gymnastics - Sports/Front tuck.mp4' | relative_url }}" download>Download Front Tuck video</a>
+                  <source src="{{ '/assets/img/Gymnastics - Sports/IMG_1717.mp4' | relative_url }}" type="video/mp4">
+                  Your browser does not support the video tag. <a href="{{ '/assets/img/Gymnastics - Sports/IMG_1717.mp4' | relative_url }}" download>Download Beam Routine video</a>
                 </video>
-                <p>Front Tuck on Beam</p>
+                <p>Beam Routine</p>
               </div>
             </div>
           </div>

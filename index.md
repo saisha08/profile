@@ -7,7 +7,10 @@ permalink: /
 <section class="hero">
   <div class="intro">
     <h1>Hello! I'm {{ site.title }}.</h1>
-    <p>I am an inquisitive and results-driven student with a passion for exploring how data and behavioral insights can make finance and education more equitable — blending research, technology, and real-world experimentation.</p>
+    <p style="text-indent: 2rem; margin-top: 1rem;">I am an inquisitive, results-driven student with a deep curiosity for how data and behavioral insights can bridge gaps in finance and education. I aim to transform systems through research, technology, and hands-on experimentation. I lead with purpose. From directing large-scale global initiatives to mobilizing cross-functional teams, I translate complex problems into real-world impact using strategic thinking and collaborative leadership. Beyond analytics, I find balance in the arts, blending the precision of data with the discipline and grace of gymnastics and creative performance. It's this intersection of logic and artistry that drives me to envision and build solutions that are not only effective, but human-centered.</p>
+    <p style="margin-top: 1rem;">
+      <a href="{{ '/assets/SaishaSiram_ExtendedResume_Updated.pdf' | relative_url }}" style="color: var(--brand); text-decoration: none !important; font-weight: 600; border: none;">View my resume →</a>
+    </p>
   </div>
   <div class="hero-decoration">
     <div class="floating-shape shape-1"></div>

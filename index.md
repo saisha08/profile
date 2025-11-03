@@ -71,7 +71,7 @@ permalink: /
       
       <ul style="margin: 0.2rem 0; padding-left: 1.2rem; color: var(--muted);">
         <li>Placed in Top 3 overall among collegiate teams</li>
-        <li>Achieved +14% accuracy improvement over baseline model</li>
+        <li>Achieved 14% accuracy improvement over baseline model</li>
         <li>Created and validated 500+ labeled data points for hate-speech detection</li>
         <li>Presented findings on AI ethics, fairness, and policy implications to industry leaders</li>
       </ul>

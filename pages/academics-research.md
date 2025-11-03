@@ -40,8 +40,24 @@ permalink: /academics-research/
 
   <h2 style="margin-top: 3rem;">Academic Programs</h2>
 
-  <div class="academic-cards-stack">
-    <article class="academic-card">
+  <div class="leadership-cards-stack">
+    <article class="leadership-card" style="display: flex; align-items: center;">
+      <div class="carousel-container">
+        <div class="carousel" id="washu-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="{{ '/assets/img/Washu/IMG_7153.jpg' | relative_url }}" alt="WashU BOLD@Olin" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/Washu/IMG_7147.jpg' | relative_url }}" alt="WashU BOLD@Olin" style="width: 100%; height: 250px; object-fit: cover; display: none;">
+          <img src="{{ '/assets/img/Washu/IMG_7156_(1).jpg' | relative_url }}" alt="WashU BOLD@Olin" style="width: 100%; height: 250px; object-fit: cover; display: none;">
+          <img src="{{ '/assets/img/Washu/IMG_7160.jpg' | relative_url }}" alt="WashU BOLD@Olin" style="width: 100%; height: 250px; object-fit: cover; display: none;">
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('washu-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('washu-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
+        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+          <span class="dot active" onclick="currentSlide('washu-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('washu-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('washu-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('washu-carousel', 3)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
+        </div>
+      </div>
       <div class="content">
         <h3>BOLD@Olin (Washington University)</h3>
         <div class="meta">June 2024 - July 2024</div>
@@ -50,3 +66,5 @@ permalink: /academics-research/
     </article>
   </div>
 </section>
+
+<script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>

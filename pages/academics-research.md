@@ -19,6 +19,13 @@ permalink: /academics-research/
     </article>
     <article class="academic-card">
       <div class="content">
+        <h3>Research Assistant, American University NLP Hate Speech Detection Project</h3>
+        <div class="meta">Oct 2025 - Present</div>
+        <p>Collaborating with <strong>Professor Nathalie Japkowicz</strong> to develop a Natural Language Processing (NLP) application for detecting hate speech, with an initial focus on antisemitic content in social media posts. Designing and training machine learning models to identify linguistic patterns associated with hate speech across diverse demographics. Leading efforts to expand model applicability to detect hate speech targeting Anti-Asian, Anti-Islamic, and Anti-Black communities, improving inclusivity and dataset representation. Conducting data preprocessing, model evaluation, and performance optimization using advanced NLP techniques and ethical AI frameworks.</p>
+      </div>
+    </article>
+    <article class="academic-card">
+      <div class="content">
         <h3>New York Academy of Science (NYAS) Ethical AI Challenge, Top Team Award</h3>
         <div class="meta">August 2024 - December 2024</div>
         <p>I collaborated with international researchers under the mentorship of <strong>Professor Christos Liambas (Aristotle University of Thessaloniki, Greece)</strong>, a digital forensics and computer science expert, to investigate the ethical implications of AI in education. As part of this work, I researched, designed, and piloted an innovative AI-driven solution aimed at addressing ethical challenges and implementation barriers in the education sector, helping to pioneer advancements in responsible AI. To ground the project in real-world needs, I partnered with three school districts across the United States, India, and Australia, gathering feedback and running controlled test groups that directly informed the development of the solution.</p>

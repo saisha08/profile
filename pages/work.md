@@ -26,7 +26,7 @@ permalink: /work/
         </div>
       </div>
       <div class="content">
-        <h3>Gymnastics Coach, Austin Gymnastics Club</h3>
+        <h3>Gymnastics Coach, <a href="https://www.austingymnasticsclub.com/" target="_blank" rel="noopener noreferrer">Austin Gymnastics Club</a></h3>
         <div class="meta"><strong>Gymnastics Coach</strong> · Mar 2023 – Present</div>
         <p>Head coach for a total of over 400+ students across Pre-School, 101, Pre-Competitive, Camps, and Birthday Parties. Collaborated with staff and parents to run high-quality programs and develop curriculum.</p>
         <div class="activity-stats">
@@ -51,7 +51,7 @@ permalink: /work/
         </div>
       </div>
       <div class="content">
-        <h3>Archivist, Indie Meme: South Asian Film Festival</h3>
+        <h3>Archivist, <a href="https://www.indiememe.org/archival-project" target="_blank" rel="noopener noreferrer">Indie Meme: South Asian Film Festival</a></h3>
         <div class="meta"><strong>Archivist</strong> · Dec 2023 – Present</div>
         <p>Managed archival initiatives under a City of Austin funded grant, to preserve Indie Meme's history and project materials at the Austin History Center. Conducted 30+ interviews, transcribed 50+ hours of content, and curated posters, trailers, and metadata for public access to preserve South Asian film heritage. This project ensures the cultural legacy of South Asian cinema is preserved for future generations.</p>
         <div class="activity-stats">
@@ -70,8 +70,8 @@ permalink: /work/
         </div>
       </div>
       <div class="content">
-        <h3>Go-To-Market (GTM) Strategy Intern, MockStreetAI</h3>
-        <div class="meta"><strong>Go-To-Market (GTM) Strategy Intern</strong> · SEP 2025 – Present</div>
+        <h3>Go-To-Market (GTM) Strategy Intern, <a href="https://www.mockstreetai.com/" target="_blank" rel="noopener noreferrer">MockStreetAI</a></h3>
+        <div class="meta"><strong>Go-To-Market (GTM) Strategy Intern</strong> · Sep 2025 – Present</div>
         <p>Collaborated with founders to define and execute the B2C go-to-market strategy for MockStreetAI, an AI-powered finance interview preparation platform, driving the startup to achieve 4-figure Monthly Recurring Revenue (MRR) in two months. Led comprehensive market research and in-depth competitor analysis spanning 20+ industry players to uncover market whitespace and sharpen product positioning for strategic advantage. Launched targeted outreach campaigns to university finance clubs and LinkedIn communities, growing early-access signups by 40% in 3 weeks. Designed and A/B-tested highly personalized cold email and landing page copy, resulting in a 2.3x increase in conversion rates from free users to paid subscribers.</p>
         <div class="activity-stats">
           <span>4-Figure MRR</span>
@@ -98,13 +98,32 @@ permalink: /work/
         </div>
       </div>
       <div class="content">
-        <h3>Consultant, Leadership Initiatives International Internship Program (LI-IIP)</h3>
+        <h3>Consultant, <a href="https://www.liempower.org/iipbusiness" target="_blank" rel="noopener noreferrer">Leadership Initiatives International Internship Program (LI-IIP)</a></h3>
         <div class="meta"><strong>Consultant</strong> · Jan 2024 – Dec 2024</div>
         <p>Advised a small business in Nigeria: built advertising strategy and a comprehensive financial plan; designed and executed campaigns; led monthly client reviews to optimize strategy; secured $700 in funding for community initiatives.</p>
         <div class="activity-stats">
           <span>$700 Funding</span>
           <span>International</span>
           <span>Strategy & Finance</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Red River Think SMART Card -->
+    <article class="work-card">
+      <div class="carousel-container">
+        <div class="carousel" id="redriver-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
+          <img src="{{ '/assets/img/Screenshot 2025-11-04 222712.png' | relative_url }}" alt="Red River Think SMART" style="width: 100%; height: 200px; object-fit: cover; display: block;">
+        </div>
+      </div>
+      <div class="content">
+        <h3>Banking and Technology Intern, <a href="https://redriver.com/philanthropy/think-smart" target="_blank" rel="noopener noreferrer">Red River Think SMART</a></h3>
+        <div class="meta"><strong>Banking and Technology Intern</strong> · Jun 2023 – Aug 2023</div>
+        <p>Networked with banking professionals to gain insights into industry operations and best practices. Gained hands-on experience with computer hardware, cabling, cloud technologies, and IT operations. Strengthened presentation, communication, and professional soft skills by engaging in impactful client interactions and collaborative team initiatives.</p>
+        <div class="activity-stats">
+          <span>Banking & Technology</span>
+          <span>IT Operations</span>
+          <span>Professional Development</span>
         </div>
       </div>
     </article>

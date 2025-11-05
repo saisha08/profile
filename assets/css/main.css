@@ -742,6 +742,16 @@ a:hover{text-decoration:underline;color:var(--brand-dark)}
   border-color: var(--brand);
 }
 
+.work-card .content h3 a {
+  color: #1a7a8a;
+  text-decoration: underline;
+  transition: color var(--transition-fast);
+}
+
+.work-card .content h3 a:hover {
+  color: #156a7a;
+}
+
 .carousel-container {
   flex: 0 0 400px;
   position: relative;

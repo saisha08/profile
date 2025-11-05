@@ -65,7 +65,7 @@ permalink: /leadership/
         <div class="activity-stats">
           <span>11 Schools</span>
           <span>Co-Founder</span>
-          <span>Online Series</span>
+          <span>500+ Students Impacted</span>
         </div>
       </div>
     </article>

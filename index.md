@@ -7,7 +7,7 @@ permalink: /
 <section class="hero">
   <div class="intro">
     <h1>Hello! I'm {{ site.title }}.</h1>
-    <p style="text-indent: 2rem; margin-top: 1rem;">I am a results-oriented student driven by curiosity about how data and behavioral science can advance equity in finance and education. My mission is to redesign systems through cutting-edge research, technology, and practical innovation. I lead with purpose, whether steering global initiatives or uniting diverse teams, I transform complex challenges into meaningful change with strategic vision and collaboration. Beyond analytics, I thrive at the intersection of logic and creativity, channeling the discipline of gymnastics, the elegance of ballroom dance, and the artistry of the violin. This blend of precision and imagination empowers me to create solutions that are both effective and deeply human-centered.</p>
+    <p style="text-indent: 2rem; margin-top: 1rem;">I'm a curious, results-driven student passionate about using data and behavioral science to make finance and education more equitable. I love tackling complex problems with both creativity and strategy—whether I'm leading global projects or collaborating with diverse teams. Outside of academics and analytics, I diversify my perspective through the arts, channeling the discipline of gymnastics, the elegance of ballroom dance, and the artistry of the violin. This blend of precision and imagination empowers me to create solutions that are both effective and deeply human-centered.</p>
     <p style="margin-top: 1rem;">
       <a href="{{ '/assets/SaishaSiram_ExtendedResume_Updated.pdf' | relative_url }}" style="color: var(--brand); text-decoration: none !important; font-weight: 600; border: none;">View my resume →</a>
     </p>

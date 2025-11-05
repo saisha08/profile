@@ -43,7 +43,7 @@ permalink: /arts/
         </div>
         <button class="carousel-btn prev" onclick="changeSlide('card-making-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">‹</button>
         <button class="carousel-btn next" onclick="changeSlide('card-making-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer;">›</button>
-        <div class="carousel-dots" style="text-align: center; margin-top: 10px;">
+        <div class="carousel-dots">
           <span class="dot active" onclick="currentSlide('card-making-carousel', 0)" style="height: 10px; width: 10px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
           <span class="dot" onclick="currentSlide('card-making-carousel', 1)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
           <span class="dot" onclick="currentSlide('card-making-carousel', 2)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>

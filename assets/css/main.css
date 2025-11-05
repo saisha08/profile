@@ -745,6 +745,7 @@ a:hover{text-decoration:underline;color:var(--brand-dark)}
 .carousel-container {
   flex: 0 0 400px;
   position: relative;
+  padding-bottom: 30px;
 }
 
 .content {
@@ -1061,12 +1062,16 @@ a:hover{text-decoration:underline;color:var(--brand-dark)}
 
 .carousel-dots {
   position: absolute;
-  bottom: 8px;
+  bottom: 4px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   gap: 6px;
   z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 4px 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .dot {

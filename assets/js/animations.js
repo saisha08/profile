@@ -41,15 +41,29 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Parallax effect for hero section
-    window.addEventListener('scroll', () => {
-        const scrolled = window.pageYOffset;
-        const hero = document.querySelector('.hero');
-        if (hero) {
-            const rate = scrolled * -0.5;
-            hero.style.transform = `translateY(${rate}px)`;
+    // Parallax effect for hero section (disabled on mobile)
+    function handleParallax() {
+        // Only apply parallax on desktop (screen width > 768px)
+        if (window.innerWidth > 768) {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                const rate = scrolled * -0.5;
+                hero.style.transform = `translateY(${rate}px)`;
+            }
+        } else {
+            // On mobile, ensure hero doesn't have transform applied
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                hero.style.transform = 'none';
+            }
         }
-    });
+    }
+    
+    // Handle initial load and resize
+    handleParallax();
+    window.addEventListener('resize', handleParallax);
+    window.addEventListener('scroll', handleParallax);
 
     // Add typing effect to hero text
     const heroTitle = document.querySelector('.hero .intro h1');

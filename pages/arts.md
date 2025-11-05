@@ -9,16 +9,16 @@ permalink: /arts/
 
   <div class="arts-cards-stack">
     <!-- Violin Card -->
-    <article class="arts-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="image-container" style="flex: 0 0 400px; position: relative;">
+    <article class="arts-card">
+      <div class="image-container">
         <img src="{{ '/assets/img/Violin/violin.webp' | relative_url }}" alt="Violin" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
       </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">Violin</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Orchestra</strong> · 2018 – 2025</div>
+      <div class="content">
+        <h3>Violin</h3>
+        <div class="meta"><strong>Orchestra</strong> · 2018 – 2025</div>
         <p>Active member of the school orchestra, performing in concerts and competitions. Achieved Texas Music Federation All-State Winner recognition in 2022 and 2023. Participated in ensemble performances and solo recitals, contributing to the musical community through classical and contemporary repertoire.</p>
         <p style="margin-top: 0.75rem;"><strong>Honors/Awards:</strong> Passed Trinity College Exam with Distinction in Violin and Music Theory (Earning College Credit), TMEA All-Region Orchestra, TMEA Orchestra of the Year, 2x Texas Music Federation All-State Winner</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+        <div class="activity-stats">
           <span>2× All-State</span>
           <span>6+ Years</span>
           <span>Orchestra</span>
@@ -27,8 +27,8 @@ permalink: /arts/
     </article>
 
     <!-- Card-Making Card -->
-    <article class="arts-card" style="display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1.5rem; background: #f0f4f7; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); align-items: center;">
-      <div class="carousel-container" style="flex: 0 0 400px; position: relative;">
+    <article class="arts-card">
+      <div class="carousel-container">
         <div class="carousel" id="card-making-carousel" style="display: flex; overflow: hidden; border-radius: 8px;">
           <img src="{{ '/assets/img/Card-Making/IMG_9930.jpg' | relative_url }}" alt="Card making" style="width: 100%; height: 250px; object-fit: contain; object-position: center; display: block;">
           <img src="{{ '/assets/img/Card-Making/IMG_6729.jpg' | relative_url }}" alt="Card making" style="width: 100%; height: 250px; object-fit: contain; object-position: center; display: none;">
@@ -56,11 +56,11 @@ permalink: /arts/
           <span class="dot" onclick="currentSlide('card-making-carousel', 9)" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; display: inline-block; margin: 0 5px; cursor: pointer;"></span>
         </div>
       </div>
-      <div class="content" style="flex: 1;">
-        <h3 style="margin-bottom: 0;">Card-Making (Hobby)</h3>
-        <div class="meta" style="margin-top: 0;"><strong style="color: #3eb0d2;">Card Maker</strong> · 2022 – Present</div>
+      <div class="content">
+        <h3>Card-Making (Hobby)</h3>
+        <div class="meta"><strong>Card Maker</strong> · 2022 – Present</div>
         <p>Create handmade cards to show appreciation for teachers and community. Experimented with a multitude of different styles and mediums including pencil sketches, watercolor, and now embroidered cards.</p>
-        <div class="activity-stats" style="display: flex; gap: 1rem; font-size: 0.9rem; color: #888; margin-top: 1rem;">
+        <div class="activity-stats">
           <span>Handmade</span>
           <span>Creative Design</span>
           <span>Personal Touch</span>

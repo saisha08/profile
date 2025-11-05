@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const navMenu = document.querySelector('.nav-menu');
   
   if (navToggle && navMenu) {
-    navToggle.addEventListener('click', function() {
+    navToggle.addEventListener('click', function(e) {
+      e.stopPropagation();
       navToggle.classList.toggle('active');
       navMenu.classList.toggle('active');
     });

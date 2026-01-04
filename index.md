@@ -9,7 +9,7 @@ permalink: /
     <h1>Hello! I'm {{ site.title }}.</h1>
     <p style="text-indent: 2rem; margin-top: 1rem;">I'm a curious, results-driven student passionate about using data and behavioral science to make finance and education more equitable. I love tackling complex problems with both creativity and strategy—whether I'm leading global projects or collaborating with diverse teams. Outside of academics and analytics, I diversify my perspective through the arts, channeling the discipline of gymnastics, the elegance of ballroom dance, and the artistry of the violin. This blend of precision and imagination empowers me to create solutions that are both effective and deeply human-centered.</p>
     <p style="margin-top: 1rem;">
-      <a href="{{ '/assets/SaishaSiram_ExtendedResume_Updated.pdf' | relative_url }}" style="color: var(--brand); text-decoration: none !important; font-weight: 600; border: none;">View my resume →</a>
+      <a href="{{ '/assets/Saisha_Siram_Resume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="color: var(--brand); text-decoration: none !important; font-weight: 600; border: none;">View my resume →</a>
     </p>
   </div>
   <div class="hero-decoration">
@@ -83,6 +83,48 @@ permalink: /
       </p>
     </div>
 
+    <!-- NTHS Book Drive Activity Card -->
+    <div class="activity-card enhanced-card">
+      <div class="card-header">
+        <div class="activity-icon">📚</div>
+        <h3 style="margin-bottom: 0;">NTHS Book Drive</h3>
+      </div>
+      
+      <h4 style="color: #1a7a8a; font-size: 0.9rem; font-weight: 600; margin: -0.5rem 0 0.5rem 0;">Organizer</h4>
+      
+      <!-- Image Carousel -->
+      <div class="carousel-container" style="position: relative; margin-bottom: 1rem; height: 250px; padding-bottom: 0;">
+        <div class="carousel" id="nths-book-drive-carousel" style="display: flex; overflow: hidden; border-radius: 8px; height: 100%;">
+          <img src="{{ '/assets/img/Book Drive/IMG_1884 (1).jpg' | relative_url }}" alt="NTHS Book Drive" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/Book Drive/IMG_1740 (1).jpg' | relative_url }}" alt="NTHS Book Drive" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+          <img src="{{ '/assets/img/Book Drive/IMG_1881 (1).jpg' | relative_url }}" alt="NTHS Book Drive" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+          <img src="{{ '/assets/img/Book Drive/IMG_1917.jpg' | relative_url }}" alt="NTHS Book Drive" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('nths-book-drive-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer; z-index: 10;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('nths-book-drive-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer; z-index: 10;">›</button>
+        <div class="carousel-dots" style="position: absolute; bottom: 4px; left: 50%; transform: translateX(-50%); display: flex; gap: 6px; z-index: 10; background: rgba(255, 255, 255, 0.9); padding: 4px 10px; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+          <span class="dot active" onclick="currentSlide('nths-book-drive-carousel', 0)" style="height: 6px; width: 6px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('nths-book-drive-carousel', 1)" style="height: 6px; width: 6px; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('nths-book-drive-carousel', 2)" style="height: 6px; width: 6px; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('nths-book-drive-carousel', 3)" style="height: 6px; width: 6px; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+        </div>
+      </div>
+      
+      <p style="margin: 0 0 0.3rem 0;">Launched Westwood's largest-ever community book drive to expand access to reading for underprivileged children. In partnership with BookSpring, I coordinated cross-campus collection efforts, book curation, and distribution logistics, including age-based sorting and quality control.</p>
+      <ul style="margin: 0 0; padding-left: 1.2rem; color: var(--muted);">
+        <li>1,000+ books donated</li>
+        <li>400 bookmarks distributed</li>
+        <li>Partnered with 6 local high schools and feeder schools</li>
+        <li>First-ever book drive for NTHS</li>
+      </ul>
+      <p style="margin: 0.2rem 0 0 0; font-style: italic; color: #1a7a8a; font-size: 0.9rem; font-weight: 600;">Learned how to scale a service initiative through partnerships, operations, and attention to impact quality.</p>
+      <p style="margin: 0.3rem 0 0 0; font-size: 0.9rem;">
+        <a href="{{ '/leadership/' | relative_url }}#nths" style="color: var(--brand); text-decoration: none !important; font-weight: 600; border: none;">Learn about my work in NTHS →</a>
+      </p>
+    </div>
+
   </div>
 </section>
+
+<script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>
 

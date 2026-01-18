@@ -8,9 +8,11 @@ function changeSlide(carouselId, direction) {
     return;
   }
   
-  const images = carousel.querySelectorAll('img');
-  if (images.length === 0) {
-    console.error('No images found in carousel:', carouselId);
+  const allChildren = Array.from(carousel.children);
+  const media = allChildren.filter(child => child.tagName === 'IMG' || child.tagName === 'VIDEO');
+  
+  if (media.length === 0) {
+    console.error('No media found in carousel:', carouselId);
     return;
   }
   
@@ -20,20 +22,41 @@ function changeSlide(carouselId, direction) {
   }
   
   let currentIndex = carouselStates[carouselId];
+  
+  // Pause current video if it exists
+  if (media[currentIndex] && media[currentIndex].tagName === 'VIDEO') {
+    media[currentIndex].pause();
+  }
+  
   let newIndex = currentIndex + direction;
   
   // Handle wrapping
-  if (newIndex >= images.length) {
+  if (newIndex >= media.length) {
     newIndex = 0;
   } else if (newIndex < 0) {
-    newIndex = images.length - 1;
+    newIndex = media.length - 1;
   }
   
-  // Hide current image
-  images[currentIndex].style.display = 'none';
+  // Hide current media
+  if (media[currentIndex]) {
+    media[currentIndex].style.display = 'none';
+  }
   
-  // Show new image
-  images[newIndex].style.display = 'block';
+  // Show new media
+  if (media[newIndex]) {
+    media[newIndex].style.display = 'block';
+    if (media[newIndex].tagName === 'VIDEO') {
+      // Try to play video, but allow user control if autoplay fails
+      const video = media[newIndex];
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(error => {
+          // Autoplay was prevented, user can manually play via controls
+          console.log('Video autoplay prevented, user can play manually');
+        });
+      }
+    }
+  }
   
   // Update dots
   updateDots(carouselId, newIndex);
@@ -49,17 +72,32 @@ function currentSlide(carouselId, slideNumber) {
     return;
   }
   
-  const images = carousel.querySelectorAll('img');
-  if (images.length === 0) {
-    console.error('No images found in carousel:', carouselId);
+  const allChildren = Array.from(carousel.children);
+  const media = allChildren.filter(child => child.tagName === 'IMG' || child.tagName === 'VIDEO');
+  
+  if (media.length === 0) {
+    console.error('No media found in carousel:', carouselId);
     return;
   }
   
-  // Hide all images
-  images.forEach(img => img.style.display = 'none');
-  
-  // Show selected image
-  images[slideNumber].style.display = 'block';
+  // Pause all videos and hide all media
+  media.forEach((item, index) => {
+    if (item.tagName === 'VIDEO') {
+      item.pause();
+    }
+    item.style.display = index === slideNumber ? 'block' : 'none';
+    if (index === slideNumber && item.tagName === 'VIDEO') {
+      // Try to play video, but allow user control if autoplay fails
+      const video = item;
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(error => {
+          // Autoplay was prevented, user can manually play via controls
+          console.log('Video autoplay prevented, user can play manually');
+        });
+      }
+    }
+  });
   
   // Update dots
   updateDots(carouselId, slideNumber);
@@ -70,12 +108,18 @@ function currentSlide(carouselId, slideNumber) {
 
 function updateDots(carouselId, activeIndex) {
   const carousel = document.getElementById(carouselId);
-  const cardContainer = carousel.closest('.work-card, .arts-card, .flip-leadership-card, .leadership-card');
+  const cardContainer = carousel.closest('.work-card, .arts-card, .flip-leadership-card, .leadership-card, .activity-card');
   
   if (cardContainer) {
     const dots = cardContainer.querySelectorAll('.dot');
     dots.forEach((dot, index) => {
-      dot.style.backgroundColor = index === activeIndex ? '#3eb0d2' : '#bbb';
+      if (index === activeIndex) {
+        dot.style.backgroundColor = '#3eb0d2';
+        dot.classList.add('active');
+      } else {
+        dot.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
+        dot.classList.remove('active');
+      }
     });
   }
 }
@@ -90,13 +134,34 @@ document.addEventListener('DOMContentLoaded', function() {
   carousels.forEach(carousel => {
     const carouselId = carousel.id;
     const images = carousel.querySelectorAll('img');
+    const videos = carousel.querySelectorAll('video');
+    const allChildren = Array.from(carousel.children);
+    const media = allChildren.filter(child => child.tagName === 'IMG' || child.tagName === 'VIDEO');
     
-    console.log('Initializing carousel:', carouselId, 'with', images.length, 'images');
+    console.log('Initializing carousel:', carouselId, 'with', media.length, 'media items');
     
-    if (images.length > 0) {
-      // Hide all images except the first one
-      images.forEach((img, index) => {
-        img.style.display = index === 0 ? 'block' : 'none';
+    if (media.length > 0) {
+      // Hide all media except the first one
+      media.forEach((item, index) => {
+        if (index === 0) {
+          item.style.display = 'block';
+          if (item.tagName === 'VIDEO') {
+            // Try to play video, but allow user control if autoplay fails
+            const video = item;
+            const playPromise = video.play();
+            if (playPromise !== undefined) {
+              playPromise.catch(error => {
+                // Autoplay was prevented, user can manually play via controls
+                console.log('Video autoplay prevented, user can play manually');
+              });
+            }
+          }
+        } else {
+          item.style.display = 'none';
+          if (item.tagName === 'VIDEO') {
+            item.pause();
+          }
+        }
       });
       
       // Initialize state

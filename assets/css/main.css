@@ -367,8 +367,11 @@ a:hover{text-decoration:underline;color:var(--brand-dark)}
   height: 100% !important;
 }
 
-.activity-card .carousel-container .carousel img {
+.activity-card .carousel-container .carousel img,
+.activity-card .carousel-container .carousel video {
   height: 100% !important;
+  width: 100% !important;
+  object-fit: cover !important;
 }
 
 .card-header {

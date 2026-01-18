@@ -90,7 +90,7 @@ permalink: /
         <h3 style="margin-bottom: 0;">NTHS Book Drive</h3>
       </div>
       
-      <h4 style="color: #1a7a8a; font-size: 0.9rem; font-weight: 600; margin: -0.5rem 0 0.5rem 0;">Organizer</h4>
+      <h4 style="color: #1a7a8a; font-size: 0.9rem; font-weight: 600; margin: -0.5rem 0 0.5rem 0;">Organizer · President</h4>
       
       <!-- Image Carousel -->
       <div class="carousel-container" style="position: relative; margin-bottom: 1rem; height: 250px; padding-bottom: 0;">
@@ -123,8 +123,44 @@ permalink: /
       </p>
     </div>
 
+    <!-- Volunteer Gymnastics Coach Activity Card -->
+    <div class="activity-card enhanced-card">
+      <div class="card-header">
+        <div class="activity-icon">🤸</div>
+        <h3 style="margin-bottom: 0;">Volunteer Gymnastics Coach in India</h3>
+      </div>
+      
+      <h4 style="color: #1a7a8a; font-size: 0.9rem; font-weight: 600; margin: -0.5rem 0 0.5rem 0;">Coach · Advisor</h4>
+      
+      <!-- Image Carousel -->
+      <div class="carousel-container" style="position: relative; margin-bottom: 1rem; height: 250px; padding-bottom: 0;">
+        <div class="carousel" id="india-coaching-carousel" style="display: flex; overflow: hidden; border-radius: 8px; height: 100%;">
+          <img src="{{ '/assets/img/India Coaching/IMG_2375.jpg' | relative_url }}" alt="Volunteer Gymnastics Coach in India" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          <img src="{{ '/assets/img/India Coaching/IMG_2374.jpg' | relative_url }}" alt="Volunteer Gymnastics Coach in India" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+          <img src="{{ '/assets/img/India Coaching/IMG_2381.jpg' | relative_url }}" alt="Volunteer Gymnastics Coach in India" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+          <video src="{{ '/assets/img/India Coaching/IMG_2369.mp4' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; display: none;" controls loop playsinline preload="metadata" onclick="event.stopPropagation();"></video>
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide('india-coaching-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer; z-index: 10;">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide('india-coaching-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer; z-index: 10;">›</button>
+        <div class="carousel-dots" style="position: absolute; bottom: 4px; left: 50%; transform: translateX(-50%); display: flex; gap: 6px; z-index: 10; background: rgba(255, 255, 255, 0.9); padding: 4px 10px; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+          <span class="dot active" onclick="currentSlide('india-coaching-carousel', 0)" style="height: 6px; width: 6px; background-color: #3eb0d2; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('india-coaching-carousel', 1)" style="height: 6px; width: 6px; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('india-coaching-carousel', 2)" style="height: 6px; width: 6px; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+          <span class="dot" onclick="currentSlide('india-coaching-carousel', 3)" style="height: 6px; width: 6px; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+        </div>
+      </div>
+      
+      <p style="margin: 0 0 0.3rem 0;">Stepped in as a volunteer coach at an under-resourced gymnastics training center in Pandurangapuram, Visakhapatnam, supporting the girls' team facing a severe coach and equipment shortage. Alongside training, I helped structure practice sessions, reinforced fundamentals, and mentored athletes in an environment serving over 40 students with minimal resources.</p>
+      <ul style="margin: 0 0; padding-left: 1.2rem; color: var(--muted);">
+        <li>40+ athletes supported</li>
+        <li>Girls' team coaching and training assistance</li>
+        <li>Hands-on training alongside athletes</li>
+        <li>Long-term mentor relationships formed</li>
+      </ul>
+      <p style="margin: 0.2rem 0 0 0; font-style: italic; color: #1a7a8a; font-size: 0.9rem; font-weight: 600;">Learned how consistent presence and shared effort create impact, even without ideal resources.</p>
+    </div>
+
   </div>
 </section>
 
 <script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>
-

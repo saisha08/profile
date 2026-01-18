@@ -138,7 +138,7 @@ permalink: /
           <img src="{{ '/assets/img/India Coaching/IMG_2375.jpg' | relative_url }}" alt="Volunteer Gymnastics Coach in India" style="width: 100%; height: 100%; object-fit: cover; display: block;">
           <img src="{{ '/assets/img/India Coaching/IMG_2374.jpg' | relative_url }}" alt="Volunteer Gymnastics Coach in India" style="width: 100%; height: 100%; object-fit: cover; display: none;">
           <img src="{{ '/assets/img/India Coaching/IMG_2381.jpg' | relative_url }}" alt="Volunteer Gymnastics Coach in India" style="width: 100%; height: 100%; object-fit: cover; display: none;">
-          <video src="{{ '/assets/img/India Coaching/IMG_2369.mp4' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; display: none;" controls loop playsinline preload="metadata" onclick="event.stopPropagation();"></video>
+          <video src="{{ '/assets/img/India Coaching/IMG_2369.mp4' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; display: none;" controls playsinline preload="metadata" onclick="event.stopPropagation();"></video>
         </div>
         <button class="carousel-btn prev" onclick="changeSlide('india-coaching-carousel', -1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer; z-index: 10;">‹</button>
         <button class="carousel-btn next" onclick="changeSlide('india-coaching-carousel', 1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 50%; cursor: pointer; z-index: 10;">›</button>
